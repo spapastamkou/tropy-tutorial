@@ -1,0 +1,3 @@
+This file provides the images of the lesson.  
+File naming convention: [lessontitle-language-number]
+For ex. tropy-fr-1, tropy-fr-2... 
