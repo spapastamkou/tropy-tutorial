@@ -82,5 +82,6 @@ Delphine Valmalle, “Utiliser Tropy pour la gestion de ses photos d'archives”
 
 ## Notes 
 
-[^1] Arlette Farge, *Le goût de l'archive*, Paris, Éditions du Seuil, 1989, 10. 
+[^1] Arlette Farge, *Le goût de l'archive*, Paris, Éditions du Seuil, 1989, 10.  
+ 
 [2^] Sean Takats, "Tropy", billet de blog, _Quintessence of Ham_, 26 octobre 2017, http://quintessenceofham.org/2017/10/26/tropy date de consultation 1<sup>er</sup> septembre 2023
