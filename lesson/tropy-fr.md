@@ -52,11 +52,73 @@ Tropy vise donc à offrir une infrastructure à la portée des historiennes et d
 * contextualiser ses sources en attribuant aux fichiers images qui les représentent des métadonnées d'origine (par exemple date d'un document, série et sous-série du fonds d'archive dont il provient...)    
 * annoter ses sources sachant que la possibilité est offerte de fournir des transcriptions, de prendre des notes, et d'indexer à la fois les photos et les données qui émanent de ces opérations supplémentaires. 
 
-<!-- la partie Installer Tropy n'existe pas dans les autres versions--> 
-## Installer Tropy 
-Tropy peut être librement téléchargé depuis son [site web](https://tropy.org/). C'est un logiciel multi-plateformes (Linux, Windows, macOS) et son installation se fait en local&#x202F;; pour le moment il n'est pas possible de l'installer sur un serveur partagé. Notre leçon mobilise la version 1.14.0 de Tropy. 
+## Présentation du corpus d'images d'archives: les affiches de Mai 68
+Nous allons découvrir coment travailler avec Tropy en utilisant un corpus d'images numérisées et disponibles en ligne sur le site de [Gallica](http://gallica.bnf.fr/), la bibliothèque numérique de la Bibliothèque nationale de France et (ci-après BnF) et de ses institutions partenaires. Notre corpus se compose d'environ quatre cents affiches numérisées de [Mai 1968 en France](https://fr.wikipedia.org/wiki/Mai_68). Ces affiches, à l'origine des [sérigraphies](https://fr.wikipedia.org/wiki/S%C3%A9rigraphie) pour la plupart, ont été principalement des créations du dit [Atelier populaire de l'Ecole des Beaux-Arts](https://www.persee.fr/doc/mat_0769-3206_1988_num_11_1_403852) à Paris lors de l'occupation de cette école en mai-juin 1968, mais aussi d'ateliers du même type qui se sont constitués dans d'autres villes (Montpellier, Marseille...). Plusieurs bibliothèques et musées disposent des bribes des affiches de mai 68 dans leurs collections, toutefois Gallica donne accès à une collection numérisée quasi-complète qui rassemble des items physiquement présents dans diverses institutions. Ces numérisations datent des années 2010 et font partie des opérations en masse qui ont constitué le patrimoine numérique français à l'époque qui a suivi l'inaugiration du projet de Google Library (aujourd'hui abandonné). Elles témoignent aussi de la patrimonialisation de l'évènement de mai 68 et de l'effet de celle-ci sur la mise en disposition de la source numérisée. Les fichiers images des affiches sont téléchargeables en format PDF ou JPEG depuis le site de Gallica.        
+
+ 
+## Démarrer avec Tropy 
+
+### Installer Tropy 
+Tropy peut être librement téléchargé depuis son [site web](https://tropy.org/). C'est un logiciel multi-plateformes (Linux, Windows, macOS) et son installation se fait en local&#x202F;; pour le moment il n'est pas possible de l'installer sur un serveur partagé et travailler à plusieurs. Notre leçon mobilise la version 1.14.0 de Tropy. 
+
+### Préparer son corpus d'images d'archives
+Vous pouvez suivre cette leçon en utilisant le corpus des images d'affiches de Mai 1968 ou en privilégiant un corpus de votre préférence y compris vos propres images d'archives. Dans le premier cas, merci de suivre les instructions que nous fournissons sur comment obtenir ces fichiers. *(N.D.L.A. Ces instructions seront ajoutées une fois que le brouillon de la leçon aura intégré le jeu de données)*
+Si vous préférez utiliser vos propres sources, n'hésitez pas à commencer avec le fruit d'une journée de travail au centre d'archives de votre préférence: des centaines de fichiers de photos en forme brute, que vous venez de copier  depuis votre smartphone sur votre disque dur et qui attendent patiemment votre attention. C'est le moment de s'en occuper&#x202F;!    
+
+## Créer un projet
+
+### Les éléments de base d'organisation d'un projet dans Tropy 
+Avant de commencer, il est important de comprendre les éléments de base de la structure d'un projet dans Tropy. Ces éléments sont les suivants&#x202F;: 
+* projet
+* objet 
+* liste
+* tag (soit libellé)
+
+Le projet est votre projet de recherche, de publication, de crowdsourcing... tout projet intellectuel autour d'un sujet qui englobe un ensemble de sources que vous souhaitez exploiter dans ce cadre et dont vous disposez sous forme de fichiers images. C'est aussi votre point d'entrée dans l'interface de Tropy pour accéder aux photos d'archives qui lui correspondent afin de les organiser et d'effectuer nombre d'opérations en vue de leur analyse.
+L'objet dans Tropy est votre source: un document d'archives, un monument, une œuvre d'art, une affiche... Un objet équivaut à une ou plusieurs photos: par exemple, dans le cas d'un document d'archives de plusieurs pages, vous avez peut-être des photos séparées de chaque page. Lorsque vous créez l'objet qui correspond à ce document dans Tropy, celui-ci englobera les photos de toutes les pages. 
+La liste dans Tropy est la série, ou la sous-partie si vous préférez, que vous constituez en rassemblant plusieurs objets qui partagent une caractéristique commune selon la problématique de votre projet. Si vous travaillez sur la création artistique d'une certaine période, vous pouvez constituer des listes selon les avant-gardes de la période en question ou selon artiste ou encore selon un critère géographique. 
+Enfin, dernier élément de base, le libellé que vous trouverez dans l'interface comme &laquo;&#x202F;tag&#x202F;&raquo;. Nous le verrons plus en détail par la suite, les tags sont des moyens d'indexation de vos objets, qui peut être thématique ou fonctionnelle à vous d'inventer le système qui vous convient. Bien indexer ses sources au moment de les enregistrer peut être jugé chronophage. Mais cela permet de gagner du temps lors de l'analyse et de la rédaction en facilitant l'accès, de manière transversale, à des sources qui font partie de différentes listes mais qui sont réunies par une caractéristique commune.     
+
+### Configurer un projet
+
+Lançons Tropy - comme vous le verrez, nous avons aussitôt accès à une boîte de dialogue et au menu principal. La boîte nous invite à créer un projet, d'abord en le nommant puis en sélectionnant son type&#x202F;: standard ou avancé (nous allons voir de quoi il s'agit dans un moment). Nous pouvons aussi créer notre projet à partir du menu principal: Fichier > Nouveau > Projet. Nous n'allons pas explorer davantage le menu à ce point, sauf si nous souhaitons [paramétrer la langue de l'interface](#paramétrer-la-langue). 
+
+Créons donc notre projet en lui attribuant le titre de notre préférence. Il faut ensuite définir s'il sera standard ou avancé - l'option par défaut étant standard. Le type de projet est une fonctionnalité disponible à partir de la version 1.14.0. Si nous optons pour un projet standard, au moment de l'importation des fichiers des images Tropy va en créer des copies et les stocker dans un répertoire spécifique. Cela a l'avantage de rendre un projet intégralement portable - par exemple, en copiant un projet sur une clé USB et en l'important dans un autre environnement de travail, le projet reste néanmoins fonctionnel et extensible: nous pouvons le retrouver tel que nous l'avions laissé dans son environnement d'origine, et continuer à travailler dessus sans interruption. Le désavantage est que cela nécessite d'avoir des machines parformantes et beaucoup de mémoire disponible car les fichiers images sont des fichiers lourds. En revanche, un projet avancé n'effectue pas de copies des images d'origine et par conséquent ne les stocke pas dans un répertoire intégré au projet, même si nous pouvons toujours les voir via l'interface de Tropy. Comme dans ses versions précédentes, Tropy établit des liens, ou plutôt des chemins, vers les répertoires dans lesquels nous conservons nos fichiers dans l'emplacement de notre choix. Cela donne des projets plus légers puisqu'ils ne contiennent que les données que nous ajoutons (structure, notes, libellés, transcriptions...). En revanche, pour assurer la portabilité d'un projet, il faudra veiller à l'accompagner avec les répertoires séparés de nos images et d'intervenir pour rétablir les chamins cassés, le cas échéant. À vous de choisir quelle est l'option qui vous convient le plus. 
+Admettons que nous avons créé notre projet, par défaut celui-ci est stocké dans le répertoire `Documents` et son extension est .TPY.           
+
+### Paramétrer la langue 
+Tropy est disponible dans plusieurs langues dont le français. Pour paramétrer la langue à laquelle nous souhaitons que l'interface soit disponible, rendons-nous, à partir du menu principal, à Édition > Préférences > Paramètres. Une fois là, il est possible de sélectionner la langue de notre préférence à partir de la liste déroulante. 
+
+## Importer ses sources
 
 
+## Bulk Actions
+### Orientation
+### Multiple metadata fields edit
+
+## Décrire ses sources 
+### Insérer des métadonnées
+### Personnaliser les métadonnées
+### Champs non-modifiables
+### Vocabulaires contrôlés
+
+## *Visualizing/Viewing and Annotating Items*
+### *Editing for Legibility*
+### *Selections*
+### *Notes*
+
+## Organizing your Tropy Project
+_We could reminde here to the readers that main elements one meets in Tropy are: Project, Object, List, Tag. I think it is important to underline that one object = one document (and that several pages, and so ohotos of the pages, can compose one object_. 
+### Lists
+### Tags
+
+## Custom Workflows and Extensions for your Tropy Project
+### Core plugins
+#### IIIF
+#### Omeka
+#### CSL
+#### CSV
+#### Archive
 
 
 
@@ -83,5 +145,5 @@ Delphine Valmalle, “Utiliser Tropy pour la gestion de ses photos d'archives”
 ## Notes 
 
 [^1] Arlette Farge, *Le goût de l'archive*, Paris, Éditions du Seuil, 1989, 10.  
- 
+
 [2^] Sean Takats, "Tropy", billet de blog, _Quintessence of Ham_, 26 octobre 2017, http://quintessenceofham.org/2017/10/26/tropy date de consultation 1<sup>er</sup> septembre 2023
