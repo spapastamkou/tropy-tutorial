@@ -17,30 +17,18 @@ review-ticket:
 difficulty: 1
 activity: analyze
 topics: [data-manipulation, data-management]
-abstract: 
+abstract: "El propósito de este tutorial es enseñar a los investigadores cómo iniciar un proyecto de Tropy con la finalidad de gestionar las imágenes (fotos, digitalizaciones) de sus fuentes primarias." 
 avatar_alt: 
 doi: 
 ---
 
 {% include toc.html %}
 
-Tutorial de Tropy (ES)
-======================
 
-por Douglas McRae, PhD; 
+## Dataset
+De modo de ejemplo, este tutorial hace uso de una colección de expedientes judiciales de la colección "[Sección Civiles-Esclavos](https://archivo.redhistoriave.org/?_ga=2.88974747.1008451912.1691784501-889984938.1690214108&_gl=1*9i0xod*_ga*ODg5OTg0OTM4LjE2OTAyMTQxMDg.*_ga_64130MY5HV*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..*_ga_JSBL2XLMXD*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..)" del archivo de la Academia Nacional de la Historia de Venezuela (ANHV), digitalizada por la [Red Historia Venezuela](https://archivo.redhistoriave.org/) (RHV). Se trata de 404 entradas, repartidas en 381 tomos y 23 cajas con expedientes sueltos. Son unos 123.800 folios, en poco más de 61.900 capturas. A través de este tutorial, el usuario comprenderá cómo construir su propia base de datos con sus propias fuentes.
 
-Roy Rosenzweig Center for History and New Media 
-
-George Mason University 
-
-Fairfax, Virginia, EEUU
-
-Presentación
-------------
-
-### El propósito de este tutorial es enseñar a los investigadores cómo iniciar un proyecto de Tropy con la finalidad de gestionar las imágenes (fotos, digitalizaciones) de sus fuentes primarias. De modo de ejemplo, este tutorial hace uso de una colección de expedientes judiciales de la colección "[Sección Civiles-Esclavos](https://archivo.redhistoriave.org/?_ga=2.88974747.1008451912.1691784501-889984938.1690214108&_gl=1*9i0xod*_ga*ODg5OTg0OTM4LjE2OTAyMTQxMDg.*_ga_64130MY5HV*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..*_ga_JSBL2XLMXD*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..)" del archivo de la Academia Nacional de la Historia de Venezuela (ANHV), digitalizada por la [Red Historia Venezuela](https://archivo.redhistoriave.org/) (RHV). Se trata de 404 entradas, repartidas en 381 tomos y 23 cajas con expedientes sueltos. Son unos 123.800 folios, en poco más de 61.900 capturas. A través de este tutorial, el usuario comprenderá cómo construir su propia base de datos con sus propias fuentes.
-
-### Descripción de Tropy
+## Descripción de Tropy
 
 -   Tropy es una herramienta digital sin costo de código abierto que ayuda a los investigadores con la organización, descripción y exportación de sus materiales de investigación digitalizados, ya sean fotos de documentos u objetos provenientes de repositorios en línea. Fue creado para aquellos investigadores que buscan soluciones para la organización de grandes cantidades de materiales digitalizados, una situación actualmente muy común entre los investigadores archivales.
 
@@ -60,8 +48,7 @@ Presentación
 
 -   Además de apoyar en la organización y descripción de las fuentes digitalizadas , con Tropy es posible compartir materiales y proyectos con otros, ya sean usuarios de Tropy o no. Tropy puede facilitar el compartimiento de materiales históricos con el público en general, apoyando también en el proceso de grabar metadatos y permisos necesarios para ubicar material histórico y divulgarlos de manera responsable. 
 
-Para empezar: Instalación y configuración de proyecto
------------------------------------------------------
+## Para empezar: Instalación y configuración de proyecto
 
 ### Instalación
 
@@ -85,10 +72,9 @@ La ubicación del proyecto deberá depender del tamaño proyectado del proyecto.
 
 Tropy cuenta con diferentes locales de idioma. Puedes escoger su lengua preferida a través de Archivo>Preferencias en Mac OS y Editar >Preferencias en Windows, seleccionado su preferencia del menú desplegable.
 
-Importación de fotos
---------------------
+## Importación de fotos
 
-El proceso de importación es la manera en la que Tropy establece rutas entre imágenes y el proyecto para facilitar la encontrabilidad [discoverability] de las fuentes. Es posible importar imágenes de las siguientes formatos:
+El proceso de importación es la manera en la que Tropy establece rutas entre imágenes y el proyecto para facilitar la encontrabilidad [discoverability] de las fuentes. Es posible importar imágenes de las siguientes formatos: 
 
 JPG/JPEG
 
@@ -128,8 +114,7 @@ Es posible también importar una carpeta de imágenes a través del menú Archiv
 
 Si descargas tomos de la Sección Civil-Esclavos, puedes guardarlos en su disco preferido y luego importarlos a través de cualquier de los métodos mencionados.
 
-Acciones masivas
-----------------
+## Acciones masivas
 
 Siempre después de importar un conjunto de imágenes, es recomendable procesarlos e agregar algunos metadatos inmediatamente. Esta sección del tutorial describe algunas de las acciones masivas que puedes ejecutar después de importar un grupo de imágenes. Nota: es posible visualizar las últimas imágenes importadas a un proyecto a través de la lista automática "Última importación," ubicada en la barra izquierda en la vista de proyecto.
 
@@ -151,7 +136,7 @@ En el caso de un documento PDF con múltiples páginas, tal como en el caso de l
 
 En el caso de los expedientes de la Sección Civil-Esclavos: podría ser más provechoso para el investigador tener los expedientes apartados de los tomos anuales. Después de deconstruir un tomo importado, puedes fusionar de nuevo las imágenes de los folios separados para recrear los expedientes individuales, luego para agregar los metadatos únicos de cada expediente.
 
-### Descripción de fotos
+## Descripción de fotos
 
 Una de las funciones más importantes de Tropy es la de describir las fuentes a través de metadatos y anotaciones. Además, es posible organizar imágenes usando un sistema de etiquetas y listas personalizadas. Estas descripciones agregadas por el propio investigador ayuda con la descubribilidad de las fuentes y la creación manual de referencias de tus fuentes primarias.
 
@@ -181,8 +166,7 @@ Todas estos parámetros, conjuntamente con los consejos, pueden ayudar para la e
 
 En la ventana de preferencias, puedes revisar los vocabularios que vienen con Tropy. Es posible agregar otros vocabularios Estas propiedades pueden ser parte de cualquier vocabulario instalado en Tropy: elementos y términos de Dublin Core, vocabularios RDF, y European Data Model y vocabularios relacionados. Tropy te da flexibilidad de mezclar diferentes vocabularios, además de usar elementos únicos de Tropy (tropy:box, tropy:collection)
 
-Editar y anotar fotos
----------------------
+## Editar y anotar fotos
 
 En la vista de objeto, existen diferentes herramientas para cambiar el aspecto y la legibilidad de una imagen. También es posible hacer anotaciones, tanto en las imágenes como en selecciones.
 
@@ -198,8 +182,7 @@ Una de las herramientas más importantes es la de seleccionar. Haz click en la c
 
 En el campo de notas, puedes hacer cualquier anotación con texto enriquecido. Este texto también es buscable desde la barra de búsqueda en la vista de proyecto. Según tu preferencia, puedes cambiar el modo de visualización del campo de notas de horizontal a lado a lado. Incluso es posible colocar links en el campo de notas. Puedes también hacer notas tanto en selecciones como en fotos. Para comenzar, simplemente escribe en el campo de notas--se guardará automáticamente en la base de datos del proyecto.
 
-Organización de fotos
----------------------
+## Organización de fotos
 
 Además de la plantilla de metadatos, puedes describir tus fuentes en Tropy usando metadatos "no estructurados," es decir, metadatos que no pertenecen a ningún esquema o vocabulario formal. Ejemplos de este tipo de metadato pueden ser descripciones temáticas referentes al documento ('enfermedad', 'niño', "forro de libertad"), cronológico ('Siglo XIX') o relacionado con tu flujo de trabajo ('Falta transcripción', "Metadatos completos'). Es posible agregar estos temas usando etiquetas. La barra de etiquetas aparece en la mano izquierda de la vista de proyecto.
 
@@ -213,8 +196,7 @@ Para crear una lista, haz clic derecho (Ctrl+clic en Mac) en la barra en la barr
 
 Para crear una nueva etiqueta, hay múltiples opciones. Selecciona un objeto u objetos en la vista del proyecto. A la mano derecha de la vista de proyecto, haz clic en el botón "Etiquetas" para entrar en el editor de etiquetas. Haz clic en "Añadir etiqueta a X objeto" [X es el número de objetos seleccionados] y escribe un nombre para la etiqueta. Un punto aparecerá en la barra de etiquetas y también al lado del título (o en el previsto en la vista de galería). Usando el menú contextual, puedes cambiar o configurar el color de la etiqueta.
 
-Exportación de fotos 
----------------------
+## Exportación de fotos
 
 Es posible exportar imágenes individuales, objetos, (con o sin metadatos y anotaciones) y selecciones de imágenes en diferentes formatos. Haz clic derecho en un objeto en la vista de proyecto y selecciona "Exportar objeto" del menú contextual. En el submenú, podrás seleccionar JSON-LD o PDF (y dentro de PDF, puedes seleccionar orientación vertical o horizontal.)  Si exportas en formato .json, sólo exportarás los metadatos y notas asociados con la(s) imágen(es) seleccionadas. Para exportar la imágen con los metadatos y notas, habrá que seleccionar PDF.
 
