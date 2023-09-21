@@ -74,27 +74,7 @@ Tropy cuenta con diferentes locales de idioma. Puedes escoger su lengua preferid
 
 ## Importación de fotos
 
-El proceso de importación es la manera en la que Tropy establece rutas entre imágenes y el proyecto para facilitar la encontrabilidad [discoverability] de las fuentes. Es posible importar imágenes de las siguientes formatos: 
-
-JPG/JPEG
-
-PNG
-
-SVG
-
-TIFF
-
-GIF
-
-PDF
-
-JP2000
-
-WEBP
-
-HEIC
-
-AVIF
+El proceso de importación es la manera en la que Tropy establece rutas entre imágenes y el proyecto para facilitar la encontrabilidad [discoverability] de las fuentes. Es posible importar imágenes de las siguientes formatos: JPG/JPEG, PNG, SVG, TIFF, GIF, PDF, JP2000, WEBP, HEIC, AVIF. 
 
 En el caso de los expedientes judiciales de la ANHV, todos provienen de escaneos de alta calidad guardados en formato PDF. Antes de importar en PDF, es importante verificar la resolución en píxeles (ppi) en el menú Tropy>Preferencias>Parámetros. El valor por defecto es 72 ppi, el cual facilita la importación rápida de archivos PDF; sin embargo puede disminuir la calidad de la visualización. Se recomienda aumentar el valor entre 144 a 288 ppi si la calidad por defecto no es suficiente.
 
@@ -206,23 +186,23 @@ Exportar por esta ruta es parecida a "Imprimir" (Archivo>Imprimir) en formato PD
 
 Para exportar una selección, busca el nombre de la selección en el panel de fotos debajo de la plantilla de metadatos. Haz clic derecho (Control+clic en Mac) en su nombre en la lista y elige "Exportar selección" del menú contextual. Se exportará la selección en formato .jpg, sin metadatos. 
 
-### Instalación de programas adicionales (plugins)
+## Instalación de programas adicionales (plugins)
 
 Plugins o programas adicionales son extensiones que puedes instalar para facilitar la importación y exportación de imágenes y metadatos. Los plugins oficiales residen en el [repositorio de Github](https://github.com/tropy) de Tropy. También, es posible encontrarlos a través de la página web de Tropy, al fondo de la página principal. Para instalar uno, navega al repositorio y descarga el plugin deseado. Existen plugins para integración con una instalación de Omeka S, exportación de objetos para Zotero (CSL), y exportación en formato .zip y .csv. Adicionalmente es posible importar archivos .csv y manifestos IIIF.
 
-Caso de uso: Integración con Zotero
+## Caso de uso: Integración con Zotero
 
 En algunos casos, podría ser útil convertir metadatos grabados en Tropy a una referencia en Zotero. Antes de comenzar, vale la pena preguntar si necesitar importar de Tropy a [Zotero](https://www.zotero.org/). Si tu proyecto cuenta con documentos o manuscritos de archivo con una estructura de metadatos similar a un elemento de Zotero, o si tu proyecto contiene una serie de objetos con nombre similares que citas seguidamente (boletines, periódicos, etc), importar desde Tropy a Zotero puede ser útil. En otros casos, podría ser más fácil trabajar directamente con la fuente en Zotero (si es un objeto en PDF, puedes utilizar el lector de PDF de Zotero) o crear una referencia manualmente en Zotero para citar en trabajos. A continuación, se detalla cómo importar los metadatos elaborados en Tropy de un expediente de la Sección Civil-Esclavos de la ANHV a Zotero.
 
-1.  Instalar el plugin CSL
+### Instalar el plugin CSL
 
-1.  Descarga el último lanzamiento del plugin [repositorio de Github](https://github.com/tropy/tropy-plugin-csl), bajo 'Releases' [Lanzamientos] ('tropy-plugin-csl-vx.x.x.zip').
+1. Descarga el último lanzamiento del plugin [repositorio de Github](https://github.com/tropy/tropy-plugin-csl), bajo 'Releases' [Lanzamientos] ('tropy-plugin-csl-vx.x.x.zip').
 
-2.  En tu instalación de Tropy, en la ventana Preferencias > Plugins, selecciona "Instalar Plugin."
+2. En tu instalación de Tropy, en la ventana Preferencias > Plugins, selecciona "Instalar Plugin."
 
-3.  Selecciona el archivo .zip descargado del repositorio y después selecciona "Activar" en la ventana de Preferencias cuando aparezca. 
+3. Selecciona el archivo .zip descargado del repositorio y después selecciona "Activar" en la ventana de Preferencias cuando aparezca. 
 
-3.  ¿Qué tipo de elemento quieres importar en Zotero?
+### ¿Qué tipo de elemento quieres importar en Zotero?
 
 1.  Abre tu instalación de Zotero, y crea un elemento de muestra que refleja el objeto que quieres importar de Tropy. Por ejemplo, puedes hacer lo siguiente Archivo>Nuevo elemento>'Libro' o 'Caso' con el fin de crear un elemento parecido a un tomo de expedientes de "Sección Civil-Esclavos" de la ANHV.
 
@@ -232,7 +212,7 @@ En algunos casos, podría ser útil convertir metadatos grabados en Tropy a una 
 
 4.  Abre el archivo .json exportado [se abrirá en el navegador web u otro aplicación por defecto] y toma nota de [los términos CSL usados](https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types) [en ingles] para cada campo que fue rellenado anteriormente...utilizarás estos términos en el paso 3d. Sólo las propiedades con valores en sus campos respectivos aparecerán en el archivo .json.
 
-5.  Crear una plantilla personalizada en Tropy para importar objetos a Zotero
+### Crear una plantilla personalizada en Tropy para importar objetos a Zotero
 
 1.  En tu instalación de Tropy, bajo el menu Archivo>Preferencias>Plantillas, selecciona la plantilla usada para los objetos que se importarán a Zotero. 
 
@@ -241,36 +221,30 @@ En algunos casos, podría ser útil convertir metadatos grabados en Tropy a una 
 3.  Renombra la plantilla para distinguirla en el menú desplegable. (Por ejemplo: agrega 'Zotero' al nombre original de la plantilla.)
 
 4.  Re-etiqueta los rótulos de cada propiedad en la nueva plantilla usando los términos de CSL que aparecieron en el archivo .json del elemento de muestra  copiado en paso 2d (en letra minúscula, con atención a los guiones).
+	* Para importar a Zotero con éxito, tu plantilla debe incluir una propiedad de metadatos etiquetada 'type' con un elemento válido de Zotero como 'book', report', or 'article-journal' en el campo de metadatos (véase: [CSL types](https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types)). Puedes rellenar este campo para cada objeto que pretendes importar o ponerle como "Valor por defecto" para esta propiedad en el editor de plantillas.
+	* No se importarán todos los metadatos de Tropy a Zotero en el mismo formato: por ejemplo, valores de fechas o separación de apellidos y nombres. Para importar una fecha, se recomienda usar el término CSL  'issued.'
+	* Si cambias la lengua local en Tropy, necesitarás re-etiquetar tu plantilla para importación a Zotero de las etiquetas por defecto a las etiquetas CSL [en inglés]
+	* Hasta el momento, no hay ninguna forma de transferir el texto del campo de notas de Tropy a Zotero. Una solución temporal sería agregar una propiedad de metadatos a la plantilla de exportación y etiquetarla con el término CSL 'note', y entonces copiar y pegar las notas en ese campo. Las notas aparecerán en Zotero en el campo 'Extra' incluído en todos los elementos.
 
-1.  Para importar a Zotero con éxito, tu plantilla debe incluir una propiedad de metadatos etiquetada 'type' con un elemento válido de Zotero como 'book', report', or 'article-journal' en el campo de metadatos (véase: [CSL types](https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types)). Puedes rellenar este campo para cada objeto que pretendes importar o ponerle como "Valor por defecto" para esta propiedad en el editor de plantillas.
+5.  Aplicar la nueva plantilla a los objetos que deseas importar a Zotero
+	* Poco debería cambiar en términos de los valores porque efectivamente estás mapeando nuevas etiquetas encima de las propiedades de metadatos pre-existentes.
 
-2.  No se importarán todos los metadatos de Tropy a Zotero en el mismo formato: por ejemplo, valores de fechas o separación de apellidos y nombres. Para importar una fecha, se recomienda usar el término CSL  'issued.'
-
-3.  Si cambias la lengua local en Tropy, necesitarás re-etiquetar tu plantilla para importación a Zotero de las etiquetas por defecto a las etiquetas CSL [en inglés]
-
-4.  Hasta el momento, no hay ninguna forma de transferir el texto del campo de notas de Tropy a Zotero. Una solución temporal sería agregar una propiedad de metadatos a la plantilla de exportación y etiquetarla con el término CSL 'note', y entonces copiar y pegar las notas en ese campo. Las notas aparecerán en Zotero en el campo 'Extra' incluído en todos los elementos.
-
-6.  Aplicar la nueva plantilla a los objetos que deseas importar a Zotero
-
-1.  Poco debería cambiar en términos de los valores porque efectivamente estás mapeando nuevas etiquetas encima de las propiedades de metadatos pre-existentes.
-
-7.  Exportar objeto(s) de Tropy como archivo CSL JSON
+### Exportar objeto(s) de Tropy como archivo CSL JSON
 
 1.  En Archivo>Preferencias bajo Plugins, selecciona CSL y luego selecciona Parámetros.
 
 2.  Agrega una nueva instancia del plugin y ponerle un nombre para distinguirla dentro del menú de contexto.
 
 3.  Selecciona la plantilla que acabas de crear.
+	* Toma en cuenta que puedes crear múltiples plantillas y opciones de exportar para diferentes elementos de Zotero
 
-1.  Toma en cuenta que puedes crear múltiples plantillas y opciones de exportar para diferentes elementos de Zotero
+4.  Regresa a la vista de proyecto y haz clic derecho en el objeto u objetos que quieres exportar como archivo .json.
 
-5.  Regresa a la vista de proyecto y haz clic derecho en el objeto u objetos que quieres exportar como archivo .json.
+5.  Selecciona 'Exportar objeto>[nombre de la instancia del plugin]
 
-6.  Selecciona 'Exportar objeto>[nombre de la instancia del plugin]
+6.  Ponerle nombre al archivo .json y guárdalo. Si piensas en crear una nueva colección dentro de Zotero, puedes darle el nombre de la nueva colección, y al importar, se creará una nueva colección con el nombre del archivo.
 
-7.  Ponerle nombre al archivo .json y guárdalo. Si piensas en crear una nueva colección dentro de Zotero, puedes darle el nombre de la nueva colección, y al importar, se creará una nueva colección con el nombre del archivo.
-
-9.  Importar a Zotero
+### Importar a Zotero
 
 1.  En tu instalación de Zotero, selecciona Archivo>Importar... y escoge 'Un archivo'
 
