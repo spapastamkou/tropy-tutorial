@@ -129,16 +129,19 @@ Au moment d'importer les images, il est judicieux de les décrire avec les méta
 ### Métadonnées: kézako? 
 Avant toute chose, faisons, très brièvement, le point sur les métadonnées&#x202F;! Les métadonnées sont des informations qui décrivent d'autres données et qui deviennent signifiantes dans un système défini. Dans un cadre scientifique, comme le nôtre, [les métadonnées servent à décrire les données de recherche et les productions réalisées après leur analyse (par ex. articles, livres etc.)](https://doranum.fr/metadonnees-standards-formats/metadonnees-standards-formats-fiche-synthetique_10_13143_vbjs-6288/). Les métadonnées de base auxquelles nous avons affaire dans le cadre de notre projet peuvent porter sur le titre, le créateur ou la créatrice de la ressource qui nous intéresse (une oeuvre d'art, un document diplomatique), la date de création, parfois des destinataires ou encore davantage, comme nous le verrons par la suite.      
 
-### Attribuer des métadonnées
+### Attribuer des métadonnées par lot
 Il est possible d'attribuer des métadonnées aux objets soit à l'unité soit par lot, si nos objets sont homogènes (par exemple, s'il s'agit d'un ensemble de photos de documents en provenance de la même archive, série et sous-série, carton...). C'est le cas de notre corpus, nous pouvons donc attribuer les principales métadonées, en tout cas celles qui sont communes, par lot. Pour ensuite attribuer, au niveau d'objet si besoin, des métadonnées spécifiques si elles ne sont pas communes pour l'ensemble. 
 
 Une bonne pratique pour attribuer des métadonnées communes à un lot de photos est de se positionner au niveau de la dernière importation (accessible depuis le menu à gauche via l'interface du projet). Dans notre cas, la dernière importation est aussi notre importation originelle, mais il s'agit d'une bonne pratique à adopter. Au fil d'un projet, plusieurs importations de fichiers d'images peuvent se faire de manière différée, selon la temporalité d'une recherche, successivement à la suite d'une série de séjours dans différents centres d'archives... Cela veut dire qu'un projet peut s'étendre au fil du temps pour englober plusieurs importations de fichiers. Si des métadonnées sont attribuées à la suite de chaque importation, il n'est pas nécessaire de revenir sur ces anciennes couches à nouveau, au contraire il vaut mieux les préserver. C'est ce que nous faisons en nous positionnant au niveau de la dernière importation. 
 
 *(Description comment attribuer de manière groupée des métadonnées avec aussi un exemple d'attribution de métadonnées plus spécifiques au niveau de l'objet en se rapportant à notre corpus d'affiches).* 
-Depuis l'interface du projet, nous nous plaçons au niveau de la zone du milieu avec la vue d'ensemble des objets que nous avons importés. Nous les sélectionnons tous, que ce soit depuis l'affichage en mode liste ou vignette, Ensuite, nous accédons au menu qui se trouve dans la partie droite de notre écran pour aller à ce qui se présente comme une fiche Métadonnées. Pour le moment, cette boîte de dialogue est de type Tropy Generic, si nous nous fions à son intitulé - cela peut changer depuis la liste déroulante, mais restons là pour l'instant. Cette boîte comporte une liste de champs cliquables que nous pouvons peupler d'informations.      
+Depuis l'interface du projet, nous nous plaçons au niveau de la zone du milieu avec la vue d'ensemble des objets que nous avons importés. Nous les sélectionnons tous, que ce soit depuis l'affichage en mode liste ou vignette, Ensuite, nous accédons au menu qui se trouve dans la partie droite de notre écran pour aller à ce qui se présente comme une fiche Métadonnées. Pour le moment, cette boîte de dialogue est de type Tropy Generic, si nous nous fions à son intitulé - cela peut changer depuis la liste déroulante, mais restons là pour l'instant. Cette boîte comporte une liste de champs cliquables que nous pouvons peupler d'informations. Nous identifions comme informations communes à tous les objets de notre corpus les champs source, collection, droits. Nous allons donc renseigner chacun de ces champs. Les métadonnées sont appliquées à tous les objets sélectionnés. 
+
+### Attribuer des métadonnées par objet
+       
 
 
-### Sélectionner le modèle de saisie des métadonnées: modèle par défaut, modèle personnalisé
+### Sélectionner, personnaliser le modèle de saisie des métadonnées
 ### Champs non-modifiables
 ### Vocabulaires contrôlés
 
