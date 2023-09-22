@@ -123,7 +123,7 @@ Enfin, il faut noter que les opérations décrites ci-dessous sont possibles seu
 
 
 ## Décrire ses sources
-Au moment d'importer les images, il est judicieux de les décrire avec les métadonnées d'origine des nos sources primaires, pour être ensuite en mesure de les exploiter (identifier nos documents et y accéder, les analyser, pouvoir les citer). 
+Au moment d'importer les images, il est judicieux de les décrire avec les métadonnées d'origine des sources primaires qu'elles représentent, pour être ensuite en mesure de les exploiter (identifier les documents et y accéder, les analyser, pouvoir les citer...). 
 
 ### Métadonnées: kézako? 
 Avant toute chose, faisons, très brièvement, le point sur les métadonnées&#x202F;! Les métadonnées sont des informations qui décrivent d'autres données et qui deviennent signifiantes dans un système défini. Dans un cadre scientifique, comme le nôtre, [les métadonnées servent à décrire les données de recherche et les productions réalisées après leur analyse (par ex. articles, livres etc.)](https://doranum.fr/metadonnees-standards-formats/metadonnees-standards-formats-fiche-synthetique_10_13143_vbjs-6288/). Les métadonnées de base auxquelles nous avons affaire dans le cadre de notre projet peuvent porter sur le titre, le créateur ou la créatrice de la ressource qui nous intéresse (une oeuvre d'art, un document diplomatique), la date de création, parfois des destinataires ou encore davantage, comme nous le verrons par la suite.      
