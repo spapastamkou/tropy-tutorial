@@ -117,11 +117,10 @@ Les formats de fichiers que Tropy peut prendre en charge les principaux formats 
 Il est possible d'importer des images statiques qui ont leur propre URL directement depuis une page web dans un projet Tropy. Pour ce faire, il faut se positionner dans l'interface du projet et glisser l'image sélectionnée depuis le navigateur vers la zone du milieu de l'interface offrant une vue d'ensemble des objets. Attention, l'importation est différente selon que le type du projet soit standard ou avancé. Si le projet est standard, Tropy effectue aussi une copie de l'image qui est ainsi téléchargée au cours de l'opération et intégrée dans le projet. En revanche, si le projet est en mode avancé, seulement un lien est créé vers l'adresse web de l'image, sans que celle-ci ne soit téléchargée. Dans ce cas, il faut soit double-cliquer sur l'objet créé dans notre interface pour accéder, via le web, à l'image d'origine soit effectivement la télécharger de son emplacement d'origine et la copier dans un répertoire sur notre disque dur pour ensuite l'importer dans le projet. 
 
 Enfin, il faut noter que les opérations décrites ci-dessous sont possibles seulement avec les formats d'images statiques mais pas avec les fichiers PDF. Il faudra télécharger ces derniers pour ensuite pouvoir les intégrer dans iun projet Tropy. De même, lorsque les images sont accessibles via des pages dynamiques, comme le sont les pages générées via un moteur de recherche, il n'est pas possible de les importer directement dans Tropy. C'est en grande partie le cas d'images auxquelles nous accédons à la suite de recherches dans des bibliothèques numériques, et c'est aussi celui de notre corpus, que nous avons pris soin de télécharger afin de pouvoir l'utiliser. Comme bonne pratique, nous conseillons de télécharger et de sauvegarder en local les corpus qui constituent vos données de recherche.        
-
-
-## Bulk Actions
+<!--
 ### Orientation
-### Multiple metadata fields edit
+-->
+
 
 ## Décrire ses sources
 Au moment d'importer les images, il est judicieux de les décrire avec les métadonnées d'origine des nos sources primaires, pour être ensuite en mesure de les exploiter (identifier nos documents et y accéder, les analyser, pouvoir les citer). 
@@ -151,7 +150,7 @@ Depuis l'interface du projet, nous nous plaçons au niveau de la zone du milieu 
 ### *Notes*
 
 ## Organizing your Tropy Project
-_We could reminde here to the readers that main elements one meets in Tropy are: Project, Object, List, Tag. I think it is important to underline that one object = one document (and that several pages, and so ohotos of the pages, can compose one object_. 
+_We could remind here to the readers that main elements one meets in Tropy are: Project, Object, List, Tag. I think it is important to underline that one object = one document (and that several pages, and so ohotos of the pages, can compose one object_. 
 ### Lists
 ### Tags
 
