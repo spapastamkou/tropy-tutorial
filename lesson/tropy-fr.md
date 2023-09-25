@@ -137,11 +137,42 @@ Il est possible d'attribuer des métadonnées aux objets soit à l'unité soit p
 Une bonne pratique pour attribuer des métadonnées communes à un lot de photos est de se positionner au niveau de la dernière importation (accessible depuis le menu à gauche via l'interface du projet). Dans notre cas, la dernière importation est aussi notre importation originelle, mais il s'agit d'une bonne pratique à adopter. Au fil d'un projet, plusieurs importations de fichiers d'images peuvent se faire de manière différée, selon la temporalité d'une recherche, successivement à la suite d'une série de séjours dans différents centres d'archives... Cela veut dire qu'un projet peut s'étendre au fil du temps pour englober plusieurs importations de fichiers. Si des métadonnées sont attribuées après chaque nouvelles importation, il n'est pas nécessaire de revenir sur ces anciennes couches à nouveau, au contraire il vaut mieux les préserver de modifications fortuites. C'est pourquoi nous nous positionnons au niveau de la dernière importation. 
 
 *(Description comment attribuer de manière groupée des métadonnées avec aussi un exemple d'attribution de métadonnées plus spécifiques au niveau de l'objet en se rapportant à notre corpus d'affiches).* 
-Depuis l'interface du projet, nous nous plaçons au niveau de la zone du milieu avec la vue d'ensemble des objets que nous avons importés. Nous les sélectionnons tous, que ce soit depuis l'affichage en mode liste ou vignette, Ensuite, nous accédons au menu qui se trouve dans la partie droite de notre écran pour aller à ce qui se présente comme une fiche Métadonnées. Pour le moment, cette boîte de dialogue est de type Tropy Generic, si nous nous fions à son intitulé - cela peut changer depuis la liste déroulante, mais restons là pour l'instant. Cette boîte comporte une liste de champs cliquables que nous pouvons peupler d'informations. Nous identifions comme informations communes à tous les objets de notre corpus les champs source, collection, droits. Nous allons donc renseigner chacun de ces champs. Les métadonnées sont appliquées à tous les objets sélectionnés. 
+Depuis l'interface du projet, nous nous plaçons au niveau de la zone du milieu avec la vue d'ensemble des objets que nous avons importés. Nous les sélectionnons tous, que ce soit depuis l'affichage en mode liste ou vignette, Ensuite, nous accédons au menu qui se trouve dans la partie droite de notre écran pour aller à ce qui se présente comme une fiche `Métadonnées`. Pour le moment, cette boîte de dialogue est de type `Tropy Generic`, si nous nous fions à son intitulé - cela peut changer depuis la liste déroulante, mais restons là pour l'instant. Cette boîte comporte une liste de champs cliquables que nous pouvons peupler d'informations. Nous identifions comme informations communes à tous les objets de notre corpus les champs source, collection, droits. Nous allons donc renseigner chacun de ces champs. Les métadonnées sont appliquées à tous les objets sélectionnés. 
 
 ### Attribuer des métadonnées par objet
-Nous allons maintenant travailler au niveau de l'objet. Pour renseigner plus de métadonnées qui peuvent être spécifiques à un objet,        
+Nous allons maintenant travailler au niveau de l'objet. Nous venons d'[attribuer massivement des métadonnées](#attribuer-des-métadonnées-par-lot) qui sont communes à tous nos objets&#x202F;; à présent, nous souhaitons renseigner plus de métadonnées qui peuvent être spécifiques à un objet, comme par ex. un auteur ou la date de création. Nous pouvons le faire soit à partir de l'interface du projet, dans sa partie droite, que nous connaissons déjà, soit en accédant à l'interface de l'objet. Découvrons enfin cette dernière à laquelle il est possible d'accéder en double-cliquant sur l'objet de notre prédilection à partir de la liste ou de sa vignette. 
 
+Une fois là, nous pouvons renseigner les champs pertinents à l'aide de la boîte de dialogue en haut à gauche, onglet `Métadonnées`. Si nous le souhaitons, nous pouvons d'ores et déjà indexer nos objets en insérant des tags pertinents à partir de la boîte de dialogue en haut à gauche, onglet `Tags`. 
+
+### Personnaliser le modèle de saisie des métadonnées 
+Pour se familiariser avec l'attribution de métadonnées à nos objets dans Tropy, nous avons utilisé jusqu'à présent le modèle générique de métadonnées embarqué. Tropy fournit deux modèles embarqués supplémentaires qui peuvent convenir à la description de la plupart des sources historiques. L'un de ceux-là est `Tropy Correspondence` qui peut servir soit tel quel soit légèrement personnalisé dans des cas de sources primaires qui sont des correspondances (lettres, correspondances diplomatiques...). L'autre modèle embarqué reproduit un format simple du standard (de fait) de métadonnées [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). <!--Ajouter ici davantage d'informations sur Dublin Core?--> Retenez ici seulement que, si les objets de votre projet Tropy ont vocation à être exportés puis importés et publiés dans un site web pour constituer une bibliothèque numérique, il s'agit fort probablement du modèle qu'il vous faut utiliser.   
+
+Mais il est tout à fait envisageable de construire le modèle parfaitement adapté à vos sources, si vous n'avez pas peur de mettre un peu la main dans le cambouis. Dans ce cas, attention à ne pas essayer de tout construire à nouveau de fond en comble et rester dans l'esprit, ne serait-ce large, des champs déjà fournis lorsque vous apportez des adaptations. Pour personnaliser le modèle de saisie des métadonnées, voici la démarche à suivre. À partir du menu principal, aller à `Édition` > `Préférences` > `Modèle de saisie`. Dans le menu déroulant qui s'affiche, choisir puis dupliquer un modèle existant et nommer le modèle créé (par exemple, Affiches ou Monuments ou autre, selon l'objet d'une recherche donnée). Il est possible de renommer les champs existants à partir de `Label` ou, si besoin, d'ajouter de nouveaux champs. 
+
+## Analyser et annoter ses sources primaires 
+          
+
+### Organiser sa collection d'objets en listes 
+Les listes permettent de regrouper les objets (des représentations de documents ou d'autres sources primaires) qui présentent une cohérence qu'elle soit thématique, chronologique ou autre en cohérence avec la problématique d'une recherche. Organiser ses objets en listes cohérentes peut faciliter considérablement l'analyse de ses sources puis leur mobilisation lors de la phase de l'écriture. Pour créer une liste, aller au menu principal de Tropy et sélectionner `Fichier` > `Nouveau` > `Liste`. Alternativement, depuis l'interface du projet, cela est possible depuis le menu latéral situé à gauche en faisant cliquant droit sur cette zone-ci et en choisissant `Nouvelle liste`. Nous voyons maintenant apparaître dans le menu latéral de gauche l'icône d'un répertoire et une boîte qu'il faut renseigner avec le nom de la liste. Par la suite, nous pouvons glisser un ou plusieurs objets (sélectionner les objets puis glisser via click droit) sur le nom de la liste pour les intégrer dans celle-ci. 
+
+Il est tout à fait possible de créer des listes imbriquées pour organiser des parties et des sous-parties de votre travail. Il est à noter que la suppression d’une ou de plusieurs listes n’a pas d’incidence sur les objets qui eux
+continuent d’exister dans le projet.
+
+Ajouter des notes dans l’éditeur de texte disponible en dessous de la fenêtre de
+vue de l’image. 
+
+### Traiter et analyser un objet 
+
+Il s’agit d’ajouter les métadonnées de votre document. Notre démonstration
+porte sur une correspondance diplomatique pour laquelle un modèle de saisie
+spécifique a été créé sur la base du modèle “Tropy Correspondence” (qui
+convenait déjà). Il est possible de:
+● renseigner les champs Auteur, Destinataire, Lieu de production, Date...
+● ajouter des Tags pour indexer le contenu
+● ajouter des notes (descriptives, fonctionnelles, transcriptions…)
+● traiter les images si besoin
+Si l’objet a émané d’une fusion, les métadonnées sont héritées à partir du premier
+fichier, mais les notes peuvent s’insérer séparément pour chaque fichier.
 
 ### Sélectionner, personnaliser le modèle de saisie des métadonnées
 ### Champs non-modifiables
@@ -152,10 +183,8 @@ Nous allons maintenant travailler au niveau de l'objet. Pour renseigner plus de 
 ### *Selections*
 ### *Notes*
 
-## Organizing your Tropy Project
-_We could remind here to the readers that main elements one meets in Tropy are: Project, Object, List, Tag. I think it is important to underline that one object = one document (and that several pages, and so ohotos of the pages, can compose one object_. 
-### Lists
-### Tags
+
+
 
 ## Custom Workflows and Extensions for your Tropy Project
 ### Core plugins
