@@ -103,7 +103,7 @@ A partir da de uma página da web, você também pode clicar e arrastar imagens 
 
 **Importante:** nesta etapa inicial, procurer se familiarizar com as opções de configurações de projeto disponíveis em Preferências\>Definições (ver Fig. 1). É possível, por exemplo, definir que o Tropy ignore fotos duplicadas, aceite ou lhe pergunte todas as vezes em que um arquivo de imagem com o mesmo nome – interpretado como uma foto duplicada – for selecionado para importação. Esta função é muito útil para projetos de longa duração em que provavelmente você poderá ter esquecido como nomeou os arquivos e acidentalmente nomeá-los da mesma forma ou ainda para projetos que agrupam imagens de diversas proveniências que podem não ter títulos autoexplicativos e que podem por vezes ter nomes idênticos sem significar que são a mesma imagem – por exemplo, img001.
 
-{% include figure1.html filename="FIGURA1" caption="Figura 1. Figura 1. Observe as opções "Durante importação"" %}
+<!-- {% include figure1.html filename="FIGURA1" caption="Figura 1. Figura 1. Observe as opções "Durante importação"" %} -->
 
 ## Ações em massa
 
@@ -143,14 +143,15 @@ Caso você trabalhe com fontes de uma coleção de fontes muito específica ou s
 
 Navegando até Preferências\>Definições\>Modelos você pode personalizar modelos existentes adicionando ou deletando campos conforme a sua necessidade, bastando apenas renomear o modelo para fixá-lo para seu uso futuro – todas as operações do Tropy são registradas automaticamente no modo _auto-save_ (para mais detalhes, consulte a documentação [edit a template](https://docs.tropy.org/in-the-template-editor/edit-templates)). Algo mais trabalhoso, mas igualmente possível, é criar um modelo totalmente novo do zero (para mais detalhes, consulte a documentação [create a new template](https://docs.tropy.org/in-the-template-editor/create-template))
 
+<!--
 {% include figure2.html filename="FIGURA2" caption="Figura 2. Preferências do Tropy, guia para customização de modelos" %}
-
+-->
 A customização dependerá das necessidades da sua pesquisa e do nível de especificações necessários. Considere, por exemplo, a experiência do grupo de pesquisadores pertencentes ao [Grupo de Estudos do Tempo Presente](http://getempo.org/) que está utilizando o Tropy para realizar a curadoria e criação de uma exposição online que será um dos produtos do projeto de pesquisa [Memória Segunda Guerra Mundial](https://memoriasegundaguerra.org/) (em andamento). No caso deles, os curadores têm interesse em registrar a abrangência geográfica de determinados eventos que são narrados nas fontes. Nesse caso, poderiam optar pelo modelo _Dublin Core,_ diretamente, que já contém está entrada, mas nem todos os campos deste modelo são de interesse. Assim, optaram por editar o modelo _Tropy Generic_ já existente com um novo campo referente àquele termo do vocabulário _Dublin Core_ (Abrangência Espacial; ou a sua equivalência original _Spatial Coverage_, cuja notação é [dc:spatial](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/spatial/)). Para manter a consistência, a prática recomendada neste caso é a utilização de vocabulário controlado, como o [Getty Thesaurus of Geographic Names](https://www.getty.edu/research/tools/vocabularies/tgn). Ou, quando apropriado, optar por identificadores numéricos, como conjuntos de coordenadas.
 
 Para realizar uma edição semelhante, a partir de Preferências\>Definições\>Modelos você pode fazer uma cópia do _Tropy Generic_, clicando no ícone de duplicação (cópia) logo ao lado do menu suspenso contendo os modelos nativos, alterar seu nome e adicionar, subtrair ou editar os campos a partir dele. Cada modelo deve ter um nome e um URI exclusivos, quando você copia um modelo, o URI é alterado automaticamente. Lembre-se de nomear e descrever seu modelo com informações relevantes para seu futuro uso:
-
+<!--
 {% include figure3.html filename="FIGURA3" caption="Figura 3. Descrição do modelo editado, com URI único e demais informações" %}
-
+-->
 Cada propriedade é exibida no editor de modelos em um quadro individual contendo os campos para a definição da _Propriedade_, do _Rótulo, Tipo de dados;_ caixa para indicação se o campo é de preenchimento obrigatório_, Dica, Valor pré-definido_ e caixa para indicação se o campo é fechado para edição, isto é, definido como "somente leitura". Esses quadros são móveis, podendo ser reordenados a qualquer momento.
 
 Como você já deve ter percebido, há inúmeras razões e maneiras para personalizar um modelo de metadados no Tropy. Além da que acabamos de descrever, uma edição simples e bastante útil é pode ser feita mantendo os mesmos campos (propriedades), mas mudando a maneira como elas são rotuladas. Por exemplo, se o arquivo no qual você está trabalhando usa termos diferentes na sua estrutura organizacional – como _Fundo_ ao invés de _Caixa_ – você pode modificar o modelo e alterar o rótulo desse campo específico.
