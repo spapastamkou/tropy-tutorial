@@ -123,7 +123,7 @@ Indépendamment de la manière dont vous avez importé vos photos, maintenant qu
 
 Vous pouvez aussi regrouper plusieurs fichiers de photos en un seul objet. Pourquoi faire cela&#x202F;? Peut-être que vous avez plusieurs photos qui se rapportent toutes à la même source primaire, par exemple six photos qui correspondent aux six pages d'un seul document. Dans ce cas, il ne s'agit pas d'objets distincts, puisque nous avons précisé qu'un objet est égal à une source primaire. Nous allons donc regrouper ces photos pour qu'elles correspondent à une seule source. <!--Ici ajouter un exemple inspiré du dataset utilisé pour la leçon--> 
 Pour ce faire, Ctrl + cliquer pour choisir tous les fichiers concernés puis faire clic droit (ou la manipulation équivalente si vous êtes sur Mac) et choisir dans le menu qui s'ouvre `Fusionner les objets sélectionnés`. Lorsque vous faites la sélection des photos à regrouper, il faut commencer en cliquant d’abord sur le fichier qui
-représente la première page du document puis à ceux qui suivent dans l'ordre souhaité. Alternativement, vous pouvez aussi glisser le fichier qui suit dans l'ordre sur le fichier qui sert d'entrée pour l'objet.         
+représente la première page du document puis à ceux qui suivent dans l'ordre souhaité. Alternativement, vous pouvez aussi glisser le fichier qui suit dans l'ordre sur le fichier qui sert d'entrée pour l'objet. Si un objet émane d’une fusion de fichiers, c'est le premier fichier qui hérite aux autres une série de caractéristiques, dont les métadonnées sont le plus important.          
 
 ## Décrire ses sources
 Au moment d'importer les images de vos sources primaires, il est judicieux de décrire les fichiers avec les métadonnées d'origine des sources représentées. Cette opération va relier la photo avec la source et permettra ensuite de son exploitation effeicace (identifier les documents pour y accéder autant de fois qu'il le faut, les analyser, pouvoir les citer...). Merci de consulter la section qui suit avec des précisions sur les métadonnées, si ce mot vous semble étrange, autrement vous pouvez passer aux suivantes qui expliquent comment attribuer ces informations à nos objets.    
@@ -147,54 +147,32 @@ Une fois là, nous pouvons renseigner les champs pertinents à l'aide de la boî
 ### Personnaliser le modèle de saisie des métadonnées 
 Pour se familiariser avec l'attribution de métadonnées à nos objets dans Tropy, nous avons utilisé jusqu'à présent le modèle générique de métadonnées embarqué. Tropy fournit deux modèles embarqués supplémentaires qui peuvent convenir à la description de la plupart des sources historiques. L'un de ceux-là est `Tropy Correspondence` qui peut servir soit tel quel soit légèrement personnalisé dans des cas de sources primaires qui sont des correspondances (lettres, correspondances diplomatiques...). L'autre modèle embarqué reproduit un format simple du standard (de fait) de métadonnées [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). <!--Ajouter ici davantage d'informations sur Dublin Core?--> Retenez ici seulement que, si les objets de votre projet Tropy ont vocation à être exportés puis importés et publiés dans un site web pour constituer une bibliothèque numérique, il s'agit fort probablement du modèle qu'il vous faut utiliser.   
 
-Mais il est tout à fait envisageable de construire le modèle parfaitement adapté à vos sources, si vous n'avez pas peur de mettre un peu la main dans le cambouis. Dans ce cas, attention à ne pas essayer de tout construire à nouveau de fond en comble et rester dans l'esprit, ne serait-ce large, des champs déjà fournis lorsque vous apportez des adaptations. Pour personnaliser le modèle de saisie des métadonnées, voici la démarche à suivre. À partir du menu principal, aller à `Édition` > `Préférences` > `Modèle de saisie`. Dans le menu déroulant qui s'affiche, choisir puis dupliquer un modèle existant et nommer le modèle créé (par exemple, Affiches ou Monuments ou autre, selon l'objet d'une recherche donnée). Il est possible de renommer les champs existants à partir de `Label` ou, si besoin, d'ajouter de nouveaux champs. 
+Mais il est tout à fait envisageable de construire le modèle parfaitement adapté à vos sources, si vous n'avez pas peur de mettre un peu la main dans le cambouis. Dans ce cas, attention à ne pas essayer de tout construire à nouveau de fond en comble et rester dans l'esprit, ne serait-ce large, des champs déjà fournis lorsque vous apportez des adaptations. Pour personnaliser le modèle de saisie des métadonnées, voici la démarche à suivre. À partir du menu principal, aller à `Édition` > `Préférences` > `Modèle de saisie`. Dans le menu déroulant qui s'affiche, choisir puis dupliquer un modèle existant et nommer le modèle créé (par exemple, Affiches ou Monuments ou autre, selon l'objet d'une recherche donnée). Il est possible de renommer les champs existants à partir de `Label` ou, si besoin, d'ajouter de nouveaux champs.
+*Ici à ajouter exemple avec le dataset de la leçon*. <!-- Ici ajouter une exemple de création de modèle de saisie selon le jeu de données mobilisé dans cette leçon -->  
 
 ## Analyser et annoter ses sources primaires 
           
-
 ### Organiser sa collection d'objets en listes 
 Les listes permettent de regrouper les objets (des représentations de documents ou d'autres sources primaires) qui présentent une cohérence qu'elle soit thématique, chronologique ou autre en cohérence avec la problématique d'une recherche. Organiser ses objets en listes cohérentes peut faciliter considérablement l'analyse de ses sources puis leur mobilisation lors de la phase de l'écriture. Pour créer une liste, aller au menu principal de Tropy et sélectionner `Fichier` > `Nouveau` > `Liste`. Alternativement, depuis l'interface du projet, cela est possible depuis le menu latéral situé à gauche en faisant cliquant droit sur cette zone-ci et en choisissant `Nouvelle liste`. Nous voyons maintenant apparaître dans le menu latéral de gauche l'icône d'un répertoire et une boîte qu'il faut renseigner avec le nom de la liste. Par la suite, nous pouvons glisser un ou plusieurs objets (sélectionner les objets puis glisser via click droit) sur le nom de la liste pour les intégrer dans celle-ci. 
 
 Il est tout à fait possible de créer des listes imbriquées pour organiser des parties et des sous-parties de votre travail. Il est à noter que la suppression d’une ou de plusieurs listes n’a pas d’incidence sur les objets qui eux
 continuent d’exister dans le projet.
 
-Ajouter des notes dans l’éditeur de texte disponible en dessous de la fenêtre de
-vue de l’image. 
-
 ### Traiter et analyser un objet 
+Nous avons vu plus haut comment [intégrer les informations descriptives qui nous aident à identifier nos sources](#décrire-ses-sources). Cette opération a normalement lieu dans la temporalité de l'importation des nos fichiers. A l'étape suivante, lorsque nous en sommes à travailler de plus près avec nos sources, nous avons la possibilité d'effectuer plusieurs types d'opérations. 
 
-Il s’agit d’ajouter les métadonnées de votre document. Notre démonstration
-porte sur une correspondance diplomatique pour laquelle un modèle de saisie
-spécifique a été créé sur la base du modèle “Tropy Correspondence” (qui
-convenait déjà). Il est possible de:
-● renseigner les champs Auteur, Destinataire, Lieu de production, Date...
-● ajouter des Tags pour indexer le contenu
-● ajouter des notes (descriptives, fonctionnelles, transcriptions…)
-● traiter les images si besoin
-Si l’objet a émané d’une fusion, les métadonnées sont héritées à partir du premier
-fichier, mais les notes peuvent s’insérer séparément pour chaque fichier.
+Tout d'abord, nous pouvons effectuer des opérations techniques de base pour améliorer la qualité de nos photos (régler la luminosité, le contraste, etc.) en se servant du menu qui se trouve en haut de la zone où s'affiche l'image. Il est possible aussi de zoomer sur une image pour mieux lire ou observer, d'inverser les couleurs pour, par exemple, lire plus facilement des microfilms. Ou encore, nous pouvons sélectionner une partie de l'image qui nous intéresse particulièrement et sauvegarder cette sélection, qui reste accessible depuis le menu latéral à gauche, pour y revenir aussi souvent que nécessaire. Si nécessaire, une sélection peut être sauvegardée en tant qu'image autonome avec ses propres métadonnées. Cela est possible en cliquant droit sur le nom de la sélection, depuis la zone du menu latéral gauche où elle apparaît, et choisir `Exporter la photo` dans le menu qui apparaît.  
 
-### Sélectionner, personnaliser le modèle de saisie des métadonnées
-### Champs non-modifiables
-### Vocabulaires contrôlés
+Ensuite, nous avons la possibilité d'indexer le contenu de l'objet en ajoutant des tags. Les tags peuvent nous aider à organiser les contenus de nos sources de manière transversale à travers les listes. C'est un moyen très utile pour obtenir une vue latérale sur nos sources et facilite largement la rédaction. Notre conseil et de réfléchir en amont sur un système pertinent de mots-clés, selon la nature d'une recherche et sa problématique, et d'établir une liste à utiliser systématiquement. Cette liste peut bien sûr s'étendre au fil d'une recherche, elle permet néanmoins de se fixer sur de termes donnés en évitant leur multiplication, des formes différentes et des incohérences qui pourraient rendre finalement l'indexation moins efficace. 
 
-## *Visualizing/Viewing and Annotating Items*
-### *Editing for Legibility*
-### *Selections*
-### *Notes*
+Au dessous de la zone de l'image de l'objet, un éditeur de texte permet la prise de notes. Il est possible de créer autant de notes que souhaité, celles-ci apparaissent ensuite sous forme de liste tout en bas à gauche dans la zone du menu latéral gauche. La transcription du contenu d'une image, si celle-ci représente un texte, est aussi possible à faire sous forme de note. Tropy ne dispose pas de logiciel de reconnaissance optique de caractères intégré, par conséquent l'exportation automatique de texte à partir des images du projet n'est pas possible. 
+Si l’objet a émané d’une fusion, les notes peuvent s’insérer séparément pour chaque fichier. Les notes sont exportables soit via un export global du projet Tropy soit séparément en cliquant droit dessus et en choisissant de les exporter dans le menu qui s'affiche. 
 
 
 
-
-## Custom Workflows and Extensions for your Tropy Project
-### Core plugins
-#### IIIF
-#### Omeka
-#### CSL
-#### CSV
-#### Archive
-
-
+## Extensions d'un projet Tropy
+Il est possible d'exporter un projet Tropy à l'aide du menu principal en format JSON-LD ou PDF.  
+Par ailleurs, une série de plugins peuvent être installés à l'aide du menu des préférences, ce qui permet d'exporter un projet aussi en format CSV. Si ce n'est pas l'objet de cette leçon, il mérité néanmoins d'évoquer la possibilité d'installer un plugin Omeka S qui permet d'exporter un projet pour le publier à l'aide d'un site web Omeka. <!-- Prévoir ici d'intégrer un lien pour la traduction française de la leçon sur Omeka en cours de préparation -->   
 
 
 
