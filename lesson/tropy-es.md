@@ -26,7 +26,7 @@ doi:
 
 
 ## Dataset
-De modo de ejemplo, este tutorial hace uso de una colección de expedientes judiciales de la colección "[Sección Civiles-Esclavos](https://archivo.redhistoriave.org/?_ga=2.88974747.1008451912.1691784501-889984938.1690214108&_gl=1*9i0xod*_ga*ODg5OTg0OTM4LjE2OTAyMTQxMDg.*_ga_64130MY5HV*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..*_ga_JSBL2XLMXD*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..)" del archivo de la Academia Nacional de la Historia de Venezuela (ANHV), digitalizada por la [Red Historia Venezuela](https://archivo.redhistoriave.org/) (RHV). Se trata de 404 entradas, repartidas en 381 tomos y 23 cajas con expedientes sueltos. Son unos 123.800 folios, en poco más de 61.900 capturas. A través de este tutorial, el usuario comprenderá cómo construir su propia base de datos con sus propias fuentes.
+De modo de ejemplo, este tutorial hace uso de una colección de expedientes judiciales de la colección "[Sección Civiles-Esclavos](https://archivo.redhistoriave.org/?_ga=2.88974747.1008451912.1691784501-889984938.1690214108&_gl=1*9i0xod*_ga*ODg5OTg0OTM4LjE2OTAyMTQxMDg.*_ga_64130MY5HV*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..*_ga_JSBL2XLMXD*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..)" del archivo de la Academia Nacional de la Historia de Venezuela (ANHV), digitalizada por la [Red Historia Venezuela](https://archivo.redhistoriave.org/) (RHV). Se trata de 404 entradas, repartidas en 381 tomos y 23 cajas con expedientes sueltos. Son unos 123.800 folios, en poco más de 61.900 capturas. Para acceder a la colección, es necesaria registrarse. A través de este tutorial, el usuario comprenderá cómo construir su propia base de datos con sus propias fuentes.
 
 ## Descripción de Tropy
 
