@@ -24,9 +24,10 @@ doi:
 
 {% include toc.html %}
 
+## Introducción
+Muchos si no la mayoría de historiadores han comenzado a trabajar en alguna forma con fuentes digitalizadas. Además de la disponibilidad de repositorios digitales con fuentes primarias digitalizadas de una manera profesional y sistemática, muchos investigadores pueden sacar fotografías en los mismos archivos físicos, según la política de la institución. El resultado ha sido una transformación de la manera en la que los investigadores trabajan en los archivos. Uno puede recopilar cientos y hasta miles de fotos durante las jornadas investigativas en el archivo. Este fenómeno a su vez puede crear cierto caos, ya que se necesita una forma para organizar una cantidad tan grande de imágenes y tratarlas como fuentes históricas.
 
-## Dataset
-De modo de ejemplo, este tutorial hace uso de una colección de expedientes judiciales de la colección "[Sección Civiles-Esclavos](https://archivo.redhistoriave.org/?_ga=2.88974747.1008451912.1691784501-889984938.1690214108&_gl=1*9i0xod*_ga*ODg5OTg0OTM4LjE2OTAyMTQxMDg.*_ga_64130MY5HV*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..*_ga_JSBL2XLMXD*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..)" del archivo de la Academia Nacional de la Historia de Venezuela (ANHV), digitalizada por la [Red Historia Venezuela](https://archivo.redhistoriave.org/) (RHV). Se trata de 404 entradas, repartidas en 381 tomos y 23 cajas con expedientes sueltos. Son unos 123.800 folios, en poco más de 61.900 capturas. Para acceder a la colección, es necesario registrarse. A través de este tutorial, el usuario comprenderá cómo construir su propia base de datos con sus propias fuentes.
+Tropy es una herramienta desarrollada justamente para abarcar este problema de sobrecarga. Es un software de apoyo para el investigador contemporáneo para organizar y facilitar el análisis de las fuentes digitales. Además de proporcionar una interfaz para organizar imágenes recopiladas a través de la investigación, permite la descripción y gestión de materiales con metadatos y plantillas flexibles. Tropy cuenta con diferentes funciones para editar imágenes y agregar transcripciones y notas, incluso a selecciones dentro de una imagen. Es posible, además exportar datos para compartir con otros o integrar con otras herramientas digitales. En síntesis, Tropy busca poner orden en el caos que suele manifestar en proyectos dependientes de una gran cantidad de fuentes digitalizadas.
 
 ## Descripción de Tropy
 
@@ -38,15 +39,9 @@ De modo de ejemplo, este tutorial hace uso de una colección de expedientes judi
 
 -   Tropy es una herramienta útil para historiadores así como estudiosos de humanidades digitales. También tiene gran utilidad para cualquier investigador archival contemporáneo fuera de su conocimiento sobre programación. Aprender a usarlo es intuitivo, principalmente porque es un organizador de fotos diseñado para historiadores.
 
-### Tropy ¿para qué?
+  ##Dataset
+De modo de ejemplo, este tutorial hace uso de una colección de expedientes judiciales de la colección "[Sección Civiles-Esclavos](https://archivo.redhistoriave.org/?_ga=2.88974747.1008451912.1691784501-889984938.1690214108&_gl=1*9i0xod*_ga*ODg5OTg0OTM4LjE2OTAyMTQxMDg.*_ga_64130MY5HV*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..*_ga_JSBL2XLMXD*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..)" del archivo de la Academia Nacional de la Historia de Venezuela (ANHV), digitalizada por la [Red Historia Venezuela](https://archivo.redhistoriave.org/) (RHV). Se trata de 404 entradas, repartidas en 381 tomos y 23 cajas con expedientes sueltos. Son unos 123.800 folios, en poco más de 61.900 capturas. Para acceder a la colección, es necesario registrarse. A través de este tutorial, el usuario comprenderá cómo construir su propia base de datos con sus propias fuentes.
 
--   Durante las últimas dos décadas, ha cambiado la forma en la que muchos investigadores realizan investigaciones en los archivos históricos. Mientras muchos siguen leyendo y tomando notas en el archivo o sacando fotocopias, otros han adoptado la práctica de sacar fotos de documentos y analizarlas después. Esta práctica ha facilitado una cierta flexibilidad para que aquellos investigadores puedan estudiar sus textos fuentes fuera del archivo. Al mismo tiempo, un resultado ha sido una sobrecarga de imágenes digitales, la cual requiere algún tipo de gestión orientada a los requerimientos del investigador individual.  
-
--   Las políticas de reproducción más permisivas en algunas instituciones de patrimonio cultural ha permitido que más investigadores tomen la ruta de sacar fotos en el archivo, lo cual se puede considerar como una forma de digitalización rudimentaria. Por otro lado, muchos archivos y repositorios han iniciado procesos de digitalización de una parte de su acervo, proporcionando estos materiales libremente a través de sus páginas de web institucionales.
-
--   Crucialmente, se han generalizado tecnologías económicas para sacar fotos e imágenes también a través de cámaras digitales, aplicaciones de escaneo, smartphones, etc. La posibilidad de crear objetos digitales básicos (digitalización rudimentaria) ha hecho necesario un sistema para grabar informaciones relevantes (es decir, metadatos) para la organización y ubicación de recursos digitales., 
-
--   Además de apoyar en la organización y descripción de las fuentes digitalizadas , con Tropy es posible compartir materiales y proyectos con otros, ya sean usuarios de Tropy o no. Tropy puede facilitar el compartimiento de materiales históricos con el público en general, apoyando también en el proceso de grabar metadatos y permisos necesarios para ubicar material histórico y divulgarlos de manera responsable. 
 
 ## Para empezar: Instalación y configuración de proyecto
 
@@ -192,7 +187,7 @@ Plugins o programas adicionales son extensiones que puedes instalar para facilit
 
 ## Caso de uso: Integración con Zotero
 
-En algunos casos, podría ser útil convertir metadatos grabados en Tropy a una referencia en Zotero. Antes de comenzar, vale la pena preguntar si necesitar importar de Tropy a [Zotero](https://www.zotero.org/). Si tu proyecto cuenta con documentos o manuscritos de archivo con una estructura de metadatos similar a un elemento de Zotero, o si tu proyecto contiene una serie de objetos con nombre similares que citas seguidamente (boletines, periódicos, etc), importar desde Tropy a Zotero puede ser útil. En otros casos, podría ser más fácil trabajar directamente con la fuente en Zotero (si es un objeto en PDF, puedes utilizar el lector de PDF de Zotero) o crear una referencia manualmente en Zotero para citar en trabajos. A continuación, se detalla cómo importar los metadatos elaborados en Tropy de un expediente de la Sección Civil-Esclavos de la ANHV a Zotero.
+En algunos casos, podría ser útil convertir metadatos grabados en Tropy a una referencia en Zotero. Este puede ayudar en el proceso de organizar las fuentes y conectarlos con el proceso de escribir sobre ellas. Antes de comenzar, vale la pena preguntar si necesitar importar de Tropy a [Zotero](https://www.zotero.org/). Si tu proyecto cuenta con documentos o manuscritos de archivo con una estructura de metadatos similar a un elemento de Zotero, o si tu proyecto contiene una serie de objetos con nombre similares que citas seguidamente (boletines, periódicos, etc), importar desde Tropy a Zotero puede ser útil. En otros casos, podría ser más fácil trabajar directamente con la fuente en Zotero (si es un objeto en PDF, puedes utilizar el lector de PDF de Zotero) o crear una referencia manualmente en Zotero para citar en trabajos. A continuación, se detalla cómo importar los metadatos elaborados en Tropy de un expediente de la Sección Civil-Esclavos de la ANHV a Zotero.
 
 ### Instalar el plugin CSL
 
