@@ -234,7 +234,7 @@ En algunos casos, podría ser útil convertir metadatos grabados en Tropy a una 
 	* Si cambias la lengua local en Tropy, necesitarás re-etiquetar tu plantilla para importación a Zotero de las etiquetas por defecto a las etiquetas CSL [en inglés]
 	* Hasta el momento, no hay ninguna forma de transferir el texto del campo de notas de Tropy a Zotero. Una solución temporal sería agregar una propiedad de metadatos a la plantilla de exportación y etiquetarla con el término CSL 'note', y entonces copiar y pegar las notas en ese campo. Las notas aparecerán en Zotero en el campo 'Extra' incluído en todos los elementos.
 
-{% include figure.html filename="del-caos-hacia-el-orden7.png" alt="Dos ventanas: uno de Firefox mostrando los componentes de un archivo CSL JSON exportado de Zotero, y el otro del editor de plantilla de Tropy, mostrando los parámetros de diferentes propiedades de metadatos" caption="Tropy" %}
+{% include figure.html filename="del-caos-hacia-el-orden7.png" alt="Dos ventanas: uno de Firefox mostrando los componentes de un archivo CSL JSON exportado de Zotero, y el otro del editor de plantilla de Tropy, mostrando los parámetros de diferentes propiedades de metadatos" caption="Figura 7: Usan los términos encontrados en el archivo de CSL JSON para construir una plantilla para exportar a Zotero" %}
 
 5.  Aplicar la nueva plantilla a los objetos que deseas importar a Zotero
 	* Poco debería cambiar en términos de los valores porque efectivamente estás mapeando nuevas etiquetas encima de las propiedades de metadatos pre-existentes.
