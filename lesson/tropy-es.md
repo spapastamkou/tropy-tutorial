@@ -55,7 +55,7 @@ Tropy es una aplicación de escritorio. Para instalarla, basta entrar a [la pág
 
 Un proyecto en Tropy es el archivo donde se guardan las fotos de archivo con sus datos y metadatos acompañantes.
 
-Al abrir Tropy por primera vez, deberás dar un nombre al proyecto y escoger qué tipo de proyecto prefieres. Se recomienda concebir a los proyectos de la forma más amplia: a nivel de un manuscrito de libro, o tesis de doctorado, o un tema general que puede abarcar múltiples posibilidades.
+Al abrir Tropy por primera vez, deberás dar un nombre al proyecto y escoger qué tipo de proyecto prefieres. Se recomienda concebir a los proyectos de la forma más amplia: a nivel de un manuscrito de libro, o tesis de doctorado, o un tema general que puede abarcar múltiples posibilidades. Por ejemplo, para este proyecto, en lugar de nombrarlo por el archivo o repositorio, uno podría escoger un nombre que refleja un tema general, como "Afro-venezolanos" (Es posible cambiar el nombre dentro del proyecto más adelante).
 
 También deberás escoger entre un proyecto convencional (.tpy) o avanzado (.tropy). La diferencia queda en la forma en la que Tropy vincula las fotos con el archivo de proyecto. Al importar una foto, Tropy establece una ruta entre el proyecto y la foto, visualizando la imágen dentro de la interfaz del proyecto  En un proyecto convencional, Tropy hace copias de las imágenes importada, y las guarda en el directorio del archivo, estableciendo la ruta por esa ubicación. En un proyecto avanzado, Tropy establece una ruta entre el proyecto y la foto en su ubicación original, sin hacer una copia.
 
@@ -89,7 +89,9 @@ Es posible arrastrar fotos desde su computadora o desde una diapositiva adjunta 
 
 Es posible también importar una carpeta de imágenes a través del menú Archivo>Importar>Carpeta.
 
-Si descargas tomos de la Sección Civil-Esclavos, puedes guardarlos en su disco preferido y luego importarlos a través de cualquier de los métodos mencionados.
+Si descargas tomos de la Sección Civil-Esclavos, puedes guardarlos en su disco preferido y luego importarlos a través de cualquier de los métodos mencionados. En el menú Tropy>Preferencias (Edit>Preferencias en Windows)>Proyecto, es posible designar una Carpeta monitoreada--cada vez que un formato compatible sea agregado a la carpeta designada, se importará al proyecto de Tropy. Usa el botón Navegar (Figura 2) para vincular una carpeta. OJO: en el caso de descargar archivos de tamaño grande para importar a un proyecto convencional, debe considerar borrar las imagenes de la carpeta monitoreada, ya que Tropy hará una copia dentro del archivo del proyecto.
+
+{% include figure.html filename="del-caos-hacia-el-orden2.png" alt="Sección de la venta de Preferencias, mostrando los parámetros del proyecto" caption="En la sección de Proyecto bajo preferencias, es posible designar una carpeta monitoreada para facilitar la importación" %}
 
 ## Acciones masivas
 
@@ -111,7 +113,9 @@ Tropy puede fusionar imágenes individuales en objetos con múltiples fotos. De 
 
 En el caso de un documento PDF con múltiples páginas, tal como en el caso de los tomos de la Sección Civil Esclavos de la ANHN, se importarán las imágenes como objetos fusionados. En ciertos casos, será necesario deconstruir un objeto fusionado, lo cual se puede hacer seleccionado el objeto, eligiendo "Deconstruir" del menú contextual. El resultado será la separación de las fotos o imágenes individuales, todavía con los metadatos y anotaciones agregadas previamente.
 
-En el caso de los expedientes de la Sección Civil-Esclavos: podría ser más provechoso para el investigador tener los expedientes apartados de los tomos anuales. Después de deconstruir un tomo importado, puedes fusionar de nuevo las imágenes de los folios separados para recrear los expedientes individuales, luego para agregar los metadatos únicos de cada expediente.
+En el caso de los expedientes de la Sección Civil-Esclavos: podría ser más provechoso para el investigador tener los expedientes apartados de los tomos anuales (Figura 3). Después de deconstruir un tomo importado, puedes fusionar de nuevo las imágenes de los folios separados para recrear los expedientes individuales, luego para agregar los metadatos únicos de cada expediente. 
+
+{% include figure.html filename="del-caos-hacia-el-orden3.png" alt="Sección de la vista de galeria con el menú de contexto destacado, mostrando la función de Deconstruir." caption="La opción de fusionar y deconstruir objectos puede facilitar la transformación de imágenes individuales y PDF imensos en documentos digitales, según la preferencia del investigador" %}
 
 ## Descripción de fotos
 
@@ -130,6 +134,8 @@ Para hacer una nueva plantilla desde cero, asegura que "Nueva plantilla" aparece
 Cuando agregas una propiedad, puedes modificarlo para indicar que tipo de dato, darle un rótulo diferente del nombre por defecto, poner un consejo (por ejemplo: 'Apellidos, Primeros nombres' para recordar el orden grabar los nombres del autor) y también un valor por defecto. El último puede ayudar en el procesamiento de fuentes, por ejemplo cuando aplicas una plantilla prellenado para cierta colección con múltiples imágenes de la misma.
 
 Para los expedientes de al ANHV, puedes crear una plantilla para los metadatos provenientes de la página de web, por ejemplo Descripción (dc:description) Alcance (dcterms:extent), y Lugar creado (Iptc4xmpExt:Location created). Otras propiedades dependen de qué consideras importante para describir con las fuentes del proyecto.
+
+{% include figure.html filename="del-caos-hacia-el-orden4.png" alt="Sección de la venta de Preferencias, mostrando los parámetros del proyecto" caption="En la sección de Proyecto bajo preferencias, es posible designar una carpeta monitoreada para facilitar la importación" %}
 
 Es posible también construir una plantilla personalizad basada en otra. Elige una plantilla existente del menú desplegable y haz clic en las dos rectángulos al lado derecho. El editor hará una copia de la plantilla, que puedes guardar después de confirmar los metadatos para la plantilla (cambiar el nombre por ejemplo). La nueva plantilla contendrá las mismas propiedades de la primera, y puedes agregar y suprimir a gusto.
 
@@ -159,6 +165,8 @@ Una de las herramientas más importantes es la de seleccionar. Haz click en la c
 
 En el campo de notas, puedes hacer cualquier anotación con texto enriquecido. Este texto también es buscable desde la barra de búsqueda en la vista de proyecto. Según tu preferencia, puedes cambiar el modo de visualización del campo de notas de horizontal a lado a lado. Incluso es posible colocar links en el campo de notas. Puedes también hacer notas tanto en selecciones como en fotos. Para comenzar, simplemente escribe en el campo de notas--se guardará automáticamente en la base de datos del proyecto.
 
+{% include figure.html filename="del-caos-hacia-el-orden5.png" alt="XX" caption="XX" %}
+
 ## Organización de fotos
 
 Además de la plantilla de metadatos, puedes describir tus fuentes en Tropy usando metadatos "no estructurados," es decir, metadatos que no pertenecen a ningún esquema o vocabulario formal. Ejemplos de este tipo de metadato pueden ser descripciones temáticas referentes al documento ('enfermedad', 'niño', "forro de libertad"), cronológico ('Siglo XIX') o relacionado con tu flujo de trabajo ('Falta transcripción', "Metadatos completos'). Es posible agregar estos temas usando etiquetas. La barra de etiquetas aparece en la mano izquierda de la vista de proyecto.
@@ -172,6 +180,8 @@ Para crear una lista, haz clic derecho (Ctrl+clic en Mac) en la barra en la barr
 ### Etiquetas
 
 Para crear una nueva etiqueta, hay múltiples opciones. Selecciona un objeto u objetos en la vista del proyecto. A la mano derecha de la vista de proyecto, haz clic en el botón "Etiquetas" para entrar en el editor de etiquetas. Haz clic en "Añadir etiqueta a X objeto" [X es el número de objetos seleccionados] y escribe un nombre para la etiqueta. Un punto aparecerá en la barra de etiquetas y también al lado del título (o en el previsto en la vista de galería). Usando el menú contextual, puedes cambiar o configurar el color de la etiqueta.
+
+{% include figure.html filename="del-caos-hacia-el-orden6.png" alt="XX" caption="XX" %}
 
 ## Exportación de fotos
 
@@ -222,6 +232,8 @@ En algunos casos, podría ser útil convertir metadatos grabados en Tropy a una 
 	* No se importarán todos los metadatos de Tropy a Zotero en el mismo formato: por ejemplo, valores de fechas o separación de apellidos y nombres. Para importar una fecha, se recomienda usar el término CSL  'issued.'
 	* Si cambias la lengua local en Tropy, necesitarás re-etiquetar tu plantilla para importación a Zotero de las etiquetas por defecto a las etiquetas CSL [en inglés]
 	* Hasta el momento, no hay ninguna forma de transferir el texto del campo de notas de Tropy a Zotero. Una solución temporal sería agregar una propiedad de metadatos a la plantilla de exportación y etiquetarla con el término CSL 'note', y entonces copiar y pegar las notas en ese campo. Las notas aparecerán en Zotero en el campo 'Extra' incluído en todos los elementos.
+
+{% include figure.html filename="del-caos-hacia-el-orden7.png" alt="XX" caption="XX" %}
 
 5.  Aplicar la nueva plantilla a los objetos que deseas importar a Zotero
 	* Poco debería cambiar en términos de los valores porque efectivamente estás mapeando nuevas etiquetas encima de las propiedades de metadatos pre-existentes.
