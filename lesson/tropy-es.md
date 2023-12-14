@@ -38,8 +38,8 @@ Tropy es una herramienta desarrollada justamente para abarcar este problema de s
 -   Tropy cuenta con diferentes recursos para orientar al principiante, la mayoría de los cuales son accesible por la página de web principal, [tropy.org](http://tropy.org). El código de Tropy reside en [el repositorio del proyecto en Github](https://github.com/tropy). Tropy tiene una [documentación completa](https://docs.tropy.org/) (en inglés) que proporciona una orientación textual a la herramienta. Además, es posible hacer preguntas, comentarios o sugerencias a través del [foro comunitario](https://forums.tropy.org/). El [canal de Youtube](https://www.youtube.com/tropy) de Tropy aloja videotutoriales en inglés y español--además, es posible encontrar grabaciones de talleres, tutoriales y webinars hechos por otros usuarios.
 
 -   Tropy es una herramienta útil para historiadores así como estudiosos de humanidades digitales. También tiene gran utilidad para cualquier investigador archival contemporáneo fuera de su conocimiento sobre programación. Aprender a usarlo es intuitivo, principalmente porque es un organizador de fotos diseñado para historiadores.
-
-  ##Dataset
+  
+## Dataset
 De modo de ejemplo, este tutorial hace uso de una colección de expedientes judiciales de la colección "[Sección Civiles-Esclavos](https://archivo.redhistoriave.org/?_ga=2.88974747.1008451912.1691784501-889984938.1690214108&_gl=1*9i0xod*_ga*ODg5OTg0OTM4LjE2OTAyMTQxMDg.*_ga_64130MY5HV*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..*_ga_JSBL2XLMXD*MTY5MTc4NDUwMC4zLjEuMTY5MTc4NDUwOS4wLjAuMA..)" del archivo de la Academia Nacional de la Historia de Venezuela (ANHV), digitalizada por la [Red Historia Venezuela](https://archivo.redhistoriave.org/) (RHV). Se trata de 404 entradas, repartidas en 381 tomos y 23 cajas con expedientes sueltos. Son unos 123.800 folios, en poco más de 61.900 capturas. Para acceder a la colección, es necesario registrarse. A través de este tutorial, el usuario comprenderá cómo construir su propia base de datos con sus propias fuentes.
 
 
