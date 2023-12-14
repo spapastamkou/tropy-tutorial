@@ -1,5 +1,5 @@
 ---
-title: Del caos hacia el orden: gestionar fuentes primarias digitales con Tropy
+title: Del caos hacia el orden, gestionar fuentes primarias digitales con Tropy
 collection: lessons
 layout: lesson
 slug: tropy-es
