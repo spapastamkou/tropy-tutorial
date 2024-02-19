@@ -109,6 +109,8 @@ Créons donc notre projet en lui attribuant le titre de notre préférence.
 
 {% include figure.html filename="tropy-fr-01.jpg" alt="Capture d'écran de boîte de dialogue pour créer un projet dans Tropy" caption="Figure 1. La boîte de dialogue pour créer un projet dans Tropy" %} 
 
+![Boîte de dialogue pour créer un projet dans Tropy](/images/tropy-fr-01.jpg "Figure 1. La boîte de dialogue pour créer un projet dans Tropy")
+
 
 ## Importer ses sources
 Nous partons du principe que vous avez déjà des photos de vos archives ou que vous avez récupéré les fichiers que nous fournissons avec la leçon. Vous avez enregistré ces fichiers dans l'emplacement de votre choix sur votre disque dur.  
