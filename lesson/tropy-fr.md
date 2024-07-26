@@ -191,13 +191,17 @@ Par ailleurs, une série de plugins peuvent être installés à l'aide du menu d
 
 ## Tutoriels et ressources éducatives en français
 
-Cécile Arènes, Meriç Akdogan, & Aurélien Moisan. Tropy , un outil pour gérer les corpus iconographiques. Love Data Week Sorbonne Université. Zenodo. 17 février 2023 https://doi.org/10.5281/zenodo.7656554
+Arènes, Cécile, Meriç Akdogan, & Aurélien Moisan. *Tropy , un outil pour gérer les corpus iconographiques*. Love Data Week Sorbonne Université. Zenodo. 17 février 2023 https://doi.org/10.5281/zenodo.7656554
 
-Benjamin Laillier, Tutoriel Tropy (version 4), août 2019 http://doi.org/10.5281/zenodo.3381981 
+Gérer ses photos de recherche avec Tropy. Tutoriel de l'atelier de formation de la Bibliothèque universitaire de l'université Rennes 2. Date de dernière mise à jour: 18 juillet 2024. [https://tutos.bu.univ-rennes2.fr/c.php?g=702342](https://tutos.bu.univ-rennes2.fr/c.php?g=702342).  
 
-“Tropy | Gestion d’images”, wiki Pole-Num-Scrums-Skills, https://wikis.univ-lille.fr/proj-polnum/accueil/manuels/guide-d-utilisation-de-tropy 
+Laillier, Benjamin. *Tutoriel Tropy* (version 4), août 2019 http://doi.org/10.5281/zenodo.3381981 
 
-Delphine Valmalle, “Utiliser Tropy pour la gestion de ses photos d'archives”, YouTube, Geneatech, 22 février 2021, https://youtu.be/AiPqbdwP67E  
+<!-- le wiki est inaccessible
+“Tropy | Gestion d’images”, wiki Pole-Num-Scrums-Skills, https://wikis.univ-lille.fr/proj-polnum/accueil/manuels/guide-d-utilisation-de-tropy
+--> 
+
+Valmalle, Delphine. &laquo;&#x202F;Utiliser Tropy pour la gestion de ses photos d'archives&#x202F;&raquo;. YouTube, *Geneatech*, 22 février 2021, https://youtu.be/AiPqbdwP67E  
 
 <!-- en anglais “Tropy Webinar, June 16, 2020 (unedited recording)”, YouTube, Tropy Project, https://youtu.be/jWjP90EWHkQ --> 
 
