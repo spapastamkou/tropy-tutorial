@@ -1,9 +1,9 @@
 ---
-title: Du chaos à l'ordre ou comment gérer des sources primaires avec Tropy
+title: Du chaos à l'ordre ou comment gérer des images numériques de sources primaires avec Tropy
 collection: lessons
 layout: lesson
 slug: tropy-fr
-date: 2023-09-01
+date: 2024-08-15
 authors:
 - Sofia Papastamkou
 - Anita Lucchesi
@@ -17,7 +17,7 @@ review-ticket:
 difficulty: 1
 activity: analyze
 topics: [data-manipulation, data-management]
-abstract: "Apprendre à organiser, annoter et anticiper l'analyse à des fins de recherche des photos de vos sources primaires à l'aide de Tropy."
+abstract: "Apprendre à organiser et annoter des images numériques de sources primaires à l'aide du logiciel Tropy en anticipant leur analyse à des fins de recherche scientifique."
 avatar_alt: 
 doi: 
 ---
@@ -27,17 +27,19 @@ doi:
 ## Présenter Tropy en un clin d'oeil
 
 <!--what-->
-[Tropy](https://tropy.org/) est un logiciel de gestion d'images numériques de matériaux de recherche&#x202F;: à comprendre des photos de documents d'archives, de monuments, d'oeuvres d'art et, au final, de tout type de [source primaire](https://fr.wikipedia.org/wiki/Source_(information)#Source_primaire) représentée sous forme d'image numérique, selon bien évidemment le contexte de recherche dans lequel elle s'insère. 
+[Tropy](https://tropy.org/) est un logiciel qui permet de gérer les images numériques de [sources primaires](https://fr.wikipedia.org/wiki/Source_(information)#Source_primaire) tels les documents d'archives, les monuments, les &oelig;uvres d'art ou, au final, tout ce qui, dans un contexte de recherche précis, constitue une source dont on dispose sous forme d'image numérique. Il s'agit d'un logiciel à code source ouvert et gratuit qui peut être librement téléchargé à partir de son [site web](https://tropy.org/) - ce que nous recommandons de faire à celles et ceux qui souhaitent exécuter cette leçon.
 <!--who-->
-Il s'agit d'un logiciel à code ouvert (accessible sur le dépôt GitHub) dont l'utilisation est gratuite. Il peut être librement téléchargé à partir de son [site web](https://tropy.org/) - ce que nous recommandons de faire à celles et ceux qui souhaitent exécuter cette leçon. Le logiciel a été conçu et développé depuis 2016 au sein d'établissements d'enseignement supérieur et de recherche interdisciplinaires, tel le Centre pour l'histoire et les nouveaux médias [Roy Rosenzweig](https://rrchnm.org/tropy/) de l'université George Mason (Virginie, Etats-Unis), et le [Centre pour l'histoire contemporaine et digitale](https://www.uni.lu/c2dh-fr/) de l'université du Luxembourg. Tropy bénéficie en outre de l'appui de l'organisation à but non lucratif [Digital Scholar](https://digitalscholar.org/) qui promeut la production et diffusion de logiciels à code ouvert à des fins d'usage académique.  
+ Le logiciel a été conçu et développé depuis 2016 au sein d'établissements d'enseignement supérieur et de recherche interdisciplinaires, tel le Centre pour l'histoire et les nouveaux médias [Roy Rosenzweig](https://rrchnm.org/tropy/) de l'université George Mason (Virginie, Etats-Unis) et le [Centre pour l'histoire contemporaine et digitale](https://www.uni.lu/c2dh-fr/) de l'université du Luxembourg. Tropy bénéficie en outre de l'appui de l'organisation à but non lucratif [Digital Scholar](https://digitalscholar.org/) qui promeut la production et diffusion de logiciels à code source ouvert à des fins d'usage académique.  
 <!--about-->
-En ce qui concerne la documentation d'utilisation, un guide officiel est [disponible en anglais](https://docs.tropy.org/). De surcroît, un [forum Tropy](https://forums.tropy.org/) existe aussi pour les utilisatrices et les utilisateurs qui souhaitent aborder des questions spécifiques avec la communauté (notamment en anglais). Par ailleurs, Tropy dispose d'une [chaîne sur YouTube](https://www.youtube.com/channel/UCQ3QCuNGz825BGSHG9JryeA) - à présent il existe des ressources en anglais et en espagnol, mais pas en français. Enfin, Tropy est présent sur les principaux réseaux sociaux en ligne - davantage d'informations sont disponibles sur son site web.  
+En ce qui concerne la documentation d'utilisation, un guide officiel est [disponible en anglais](https://docs.tropy.org/). De surcroît, un [forum Tropy](https://forums.tropy.org/) existe aussi pour les utilisatrices et les utilisateurs qui souhaitent aborder des questions spécifiques avec la communauté (notamment en anglais). Par ailleurs, Tropy dispose d'une [chaîne sur YouTube](https://www.youtube.com/channel/UCQ3QCuNGz825BGSHG9JryeA) proposant des vidéos éducatives notamment en anglais et en espagnol, mais pas en français. Enfin, Tropy est présent sur les principaux réseaux sociaux en ligne - davantage d'informations sont disponibles sur son site web.  
 
-Pour le lectorat francophone, [la traduction, partielle et officieuse, de la documentation](http://doi.org/10.5281/zenodo.3381981), effectuée en 2019, peut s'avérer utile, tout comme divers tutoriels dont certains audiovisuels. Pour en savoir plus sur ces ressources disponibles en français, merci de consulter la [section afférente des références bibliographiques](#tutoriels-et-ressources-éducatives-en-français).   
+Pour le lectorat francophone, [la traduction partielle et officieuse de la documentation du logiciel](http://doi.org/10.5281/zenodo.3381981), effectuée en 2019, peut s'avérer utile. De même, divers tutoriels dont certains audiovisuels sont disponibles en ligne. Pour en savoir plus sur ces ressources produites au sein de la communauté francophone, merci de consulter la [section afférente des références bibliographiques](#tutoriels-et-ressources-éducatives-en-français).   
 
-## Pourquoi utiliser Tropy? 
+## Pourquoi utiliser Tropy 
 
-Tropy est une application assez unique en son genre et, à défaut, les historien(ne)s peuvent certes recourir à des systèmes d'organisation de fichiers plus traditionnels et tout aussi efficaces, comme le décrivent d'expérience un historien de l'intégration européenne[^5] ou encore une historienne de la Première guerre mondiale [^6]. <!--Par ailleurs, c'est peut-être aussi le moment de profiter de [la leçon sur les bonnes pratiques d'organisation des fichiers des données d'une recherche](/fr/lecons/preserver-ses-donnees-de-recherche)&#x202F;!--> L'avantage de Tropy est d'avoir été spécialement conçu pour répondre à l'évolution des pratiques de collecte et d'organisation des sources historiques à l'ère numérique, notamment aux mutations des formats de ces sources et des besoins de leur stockage. 
+Tropy est une application assez unique en son genre. Certes, à défaut, les historiennes et historiens peuvent recourir à des systèmes d'organisation de fichiers plus traditionnels sur leurs machines qui peuvent être tout aussi efficaces, comme le décrivent d'expérience un historien de l'intégration européenne sur son blog[^5] ou encore une historienne de la Première guerre mondiale dans une bande dessinée[^6]. Si vous pensez être plus adeptes d'un système d'organisation classique de vos fichiers sur votre disque dur - sans oublier de sauvegarder régulièrement sur un autre support&#x202F;! - et hésitez de vous lancer pour le moment dans des nouveautés, vous avez intérêt à vous diriger vers [la leçon sur les bonnes pratiques d'organisation des fichiers des données d'une recherche](/fr/lecons/preserver-ses-donnees-de-recherche)&#x202F;! Vous pourrez toujours découvrir Tropy par la suite, dont l'avantage est d'avoir été spécialement conçu pour répondre à l'évolution des pratiques de collecte et d'organisation des sources historiques à l'ère numérique. 
+
+Cette évolution s'est traduite notamment par les mutations des formats des sources historiques, de plus en plus possibles à acquérir en format numérique, et des besoins consécutifs de leur stockage, organisation et exploitation à des fins d'analyse. 
 
 Ces évolutions se sont intensifiées depuis les années 2000, lorsque les bibliothèques et les archives numériques se sont progressivement multipliées sous l'effet de grandes vagues de numérisation des collections patrimoniales combinée à la mise en place des infrastructures les rendant accessibles à distance. Par conséquent, de plus en plus de "matériaux" utilisés dans la recherche historique sont disponibles sous forme de fichiers numériques. Certes, il serait illusoire de croire que tout est numérisé&#x202F;: à titre d'exemple, en France, les fonds  numérisés des trois services d'archives à compétence nationale (Archives nationales, départementales et régionales) totalisaient en 2020 environ cinq cents millions de documents textuels et iconographiques dont l'ensemble n'était pourtant pas accessibles en ligne [^4]. Sans connaître vraiment la part précise sur le total des archives conservées, ces documents sont estimés [représenter &laquo;&#x202F;un pourcentage minime&#x202F;&raquo; des collections conservées par ces archives](https://web.archive.org/web/20230306052912/https://www.culture.gouv.fr/Actualites/Histoire-memoire-comment-les-archives-s-ouvrent-au-plus-grand-nombre). Néanmoins, les historiens et les historiennes doivent désormais composer avec une masse de fonds d'archives numérisées qui va croissant.        
 
