@@ -66,7 +66,14 @@ Nous allons découvrir comment travailler avec Tropy en utilisant un corpus d'im
 ### Préparer son corpus d'images d'archives
 Vous pouvez suivre cette leçon soit en utilisant le corpus des images d'affiches de Mai 1968 ou en privilégiant un corpus de votre préférence y compris vos propres images d'archives. Dans le premier cas, merci de suivre les instructions que nous fournissons sur comment obtenir ces fichiers. *(N.D.L.A. Ces instructions seront ajoutées une fois que le brouillon de la leçon aura intégré le jeu de données)*
 
-Si vous préférez utiliser vos propres sources, n'hésitez pas à commencer avec le fruit d'une journée de travail au centre d'archives de votre préférence&#x202F;: des centaines de fichiers de photos en forme brute, que vous venez de copier depuis votre smartphone sur votre disque dur, sans même avoir eu le temps de les renommer, et qui attendent patiemment votre attention. C'est le moment de s'en occuper&#x202F;!        
+Si vous préférez utiliser vos propres sources, n'hésitez pas à commencer avec le fruit d'une journée de travail au centre d'archives de votre préférence&#x202F;: des centaines de fichiers de photos en forme brute, que vous venez de copier depuis votre smartphone sur votre disque dur, sans même avoir eu le temps de les renommer, et qui attendent patiemment votre attention. C'est le moment de s'en occuper&#x202F;! 
+
+### Les archives du Printemps érable 
+
+[archives du mouvement du Printemps érable](https://www.printempserable.net/)
+
+### Les photos d'Occupy Wall Street sur Flickr
+        
 
  
 ## Installer Tropy 
