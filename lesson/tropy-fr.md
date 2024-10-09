@@ -139,9 +139,15 @@ Une fois notre projet créé et lancé, nous accédons enfin à l'interface qui 
 {% include figure.html filename="tropy-vue-interface-vide.jpg" alt="Vue de l'interface principale de Tropy après la création de projet et avant l'importation de fichiers" caption="Figure 1. Vue de l'interface principale de projet de Tropy" %} 
 
 ## Importer les fichiers images de ses sources
-Nous partons du principe que vous avez déjà des photos de vos archives ou que vous avez récupéré les fichiers que nous fournissons avec la leçon. Vous avez enregistré ces fichiers dans l'emplacement de votre choix sur votre disque dur. Les formats de fichiers que Tropy peut prendre en charge sont les principaux formats qui peuvent abriter des images dont JPG/JPEG, PNG, SVG, TIFF, GIF, PDF. Il s'agit là de formats communément rencontrés dans le cadre de recherches historiques, mais pour consulter la liste complète, merci de se référer à la documentation de Tropy disponible sur son site web.  
+Nous partons du principe que vous avez déjà des photos de vos archives ou que vous avez récupéré les fichiers des jeux de données que nous fournissons avec la leçon. Vous avez enregistré ces fichiers dans l'emplacement de votre choix sur votre disque dur. 
+
+Les formats de fichiers que Tropy peut prendre en charge sont les principaux formats qui peuvent abriter des images dont JPG/JPEG, PNG, SVG, TIFF, GIF, PDF. Il s'agit là de formats communément rencontrés dans le cadre de recherches historiques, mais pour consulter la liste complète, merci de se référer à la documentation de Tropy disponible sur son site web.  
  
-Il est possible d'importer les fichiers images de deux façons. Soit les glisser, un par un ou en les sélectionnant tous, directement dans la zone du milieu du menu, réservée aux objets&#x202F;; soit utiliser le menu principal. Pour le faire depuis le menu, aller à `Fichier` > `Importer` > `Photos`, pour importer un ou plusieurs fichiers d’images depuis un répertoire; ou à `Fichier` > `Importer` > `Dossier`, si vous souhaitez importer tout un répertoire de fichiers. 
+Il est possible d'importer les fichiers images de deux façons&#x202F;:
+* soit les glisser, un par un ou en les sélectionnant tous, directement dans la zone du milieu du menu, réservée aux objets
+* soit utiliser le menu principal. Pour le faire depuis le menu, aller à 
+	- `Fichier` > `Importer` > `Photos`, pour importer un ou plusieurs fichiers d’images depuis un répertoire
+	- à `Fichier` > `Importer` > `Dossier`, si vous souhaitez importer tout un répertoire de fichiers. 
 
 {% include figure.html filename="fichier-importer.jpg" alt="Menu principal d'importation de fichiers" caption="Figure 1. Vue de l'interface principale de projet de Tropy" %} 
 
