@@ -160,7 +160,7 @@ Depuis la zone du milieu, nous avons maintenant une vue d'ensemble des objets de
 
 {% include figure.html filename="derniere-importation-fichiers.jpg" alt="Menu principal après dernière importation de fichiers" caption="Vue d'ensemble en mode vignettes de fichiers importés dans un projet Tropy" %}
 
-![Menu principal après dernière importation de fichiers](derniere-importation-fichiers.jpg "Vue d'ensemble en mode vignettes de fichiers importés dans un projet Tropy")  
+![Menu principal après dernière importation de fichiers](/images/derniere-importation-fichiers.jpg "Vue d'ensemble en mode vignettes de fichiers importés dans un projet Tropy")  
 
 
 ### Importer des images depuis une page web
@@ -174,7 +174,7 @@ Indépendamment de la manière dont vous avez importé vos photos, maintenant qu
 
 {% include figure.html filename="menu-objet.jpg" alt="Menu objet accédé via click droit sur un objet" caption="Menu objet accédé via click droit sur un objet" %}
 
-![Menu objet accédé via click droit sur un objet](menu-objet.jpg "Menu objet accédé via click droit sur un objet")  
+![Menu objet accédé via click droit sur un objet](/images/menu-objet.jpg "Menu objet accédé via click droit sur un objet")  
 
 Vous pouvez aussi regrouper plusieurs fichiers de photos en un seul objet. Pourquoi faire cela&#x202F;? Peut-être que vous avez plusieurs photos qui se rapportent toutes à la même source primaire, par exemple six photos qui correspondent aux six pages d'un seul document. Dans ce cas, il ne s'agit pas d'objets distincts, puisque nous avons précisé qu'un objet est égal à une source primaire. Nous pouvons donc regrouper ces photos pour qu'elles correspondent à une seule source. <!--Ici ajouter un exemple utilisant des textes, les images du jeu de données ne s'y prêtent pas--> 
 Pour ce faire, Ctrl + cliquer pour choisir tous les fichiers concernés puis faire clic droit (ou la manipulation équivalente si vous êtes sur Mac) et choisir dans le menu qui s'ouvre `Fusionner les objets sélectionnés`. Lorsque vous faites la sélection des photos à regrouper, il faut commencer en cliquant d’abord sur le fichier qui
