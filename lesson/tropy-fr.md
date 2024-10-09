@@ -176,15 +176,14 @@ Indépendamment de la manière dont vous avez importé vos photos, maintenant qu
 
 ![Menu objet accédé via click droit sur un objet](/images/menu-objet.jpg "Menu objet accédé via click droit sur un objet")  
 
-### Regrouper 
+### Regrouper des fichiers images en un seul objet  
 Vous pouvez aussi regrouper plusieurs fichiers de photos en un seul objet. Pourquoi faire cela&#x202F;? Peut-être que vous avez plusieurs photos qui se rapportent toutes à la même source primaire, par exemple six photos qui correspondent aux six pages d'un seul document (diplomatique, journal, correspondance...). Dans ce cas, il ne s'agit pas d'objets de Tropy distincts, puisque nous avons précisé qu'un objet est égal à une source primaire. Nous pouvons donc regrouper ces photos pour qu'elles correspondent à une seule source. <!--Ici ajouter un exemple utilisant des textes, les images du jeu de données ne s'y prêtent pas--> 
 Pour ce faire, `Ctrl` + cliquer pour choisir tous les fichiers concernés puis faire clic droit (ou la manipulation équivalente si vous êtes sur Mac) et choisir dans le menu qui s'ouvre `Fusionner les objets sélectionnés`. Lorsque vous faites la sélection des photos à regrouper, il faut commencer en cliquant d’abord sur le fichier qui représente la première page du document puis à ceux qui suivent dans l'ordre souhaité. Alternativement, vous pouvez aussi glisser le fichier qui suit dans l'ordre sur le fichier qui sert d'entrée pour l'objet. Si un objet émane d’une fusion de fichiers, c'est le premier fichier qui hérite aux autres une série de caractéristiques, dont les métadonnées sont le plus important.  
 
 ### Organiser les objets d'un projet en listes 
 Les listes permettent de regrouper les objets (des représentations de documents ou d'autres sources primaires) qui présentent une cohérence qu'elle soit thématique, chronologique ou autre en cohérence avec la problématique d'une recherche. Organiser ses objets en listes cohérentes peut faciliter considérablement l'analyse de ses sources puis leur mobilisation lors de la phase de l'écriture. Pour créer une liste, aller au menu principal de Tropy et sélectionner `Fichier` > `Nouveau` > `Liste`. Alternativement, depuis l'interface du projet, cela est possible depuis le menu latéral situé à gauche en faisant cliquant droit sur cette zone-ci et en choisissant `Nouvelle liste`. Nous voyons maintenant apparaître dans le menu latéral de gauche l'icône d'un répertoire et une boîte qu'il faut renseigner avec le nom de la liste. Par la suite, nous pouvons glisser un ou plusieurs objets (sélectionner les objets puis glisser via click droit) sur le nom de la liste pour les intégrer dans celle-ci. 
 
-Il est tout à fait possible de créer des listes imbriquées pour organiser des parties et des sous-parties de votre travail. Il est à noter que la suppression d’une ou de plusieurs listes n’a pas d’incidence sur les objets qui eux
-continuent d’exister dans le projet.
+Il est tout à fait possible de créer des listes imbriquées pour organiser des parties et des sous-parties de votre travail. Il est à noter que la suppression d’une ou de plusieurs listes n’a pas d’incidence sur les objets qui, eux, continuent d’exister dans le projet.
 
 
 ## Décrire ses sources
