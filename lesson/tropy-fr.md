@@ -145,9 +145,9 @@ Les formats de fichiers que Tropy peut prendre en charge sont les principaux for
  
 Il est possible d'importer les fichiers images de deux façons&#x202F;:
 * soit les glisser, un par un ou en les sélectionnant tous, directement dans la zone du milieu du menu, réservée aux objets
-* soit utiliser le menu principal. Pour le faire depuis le menu, aller à 
+* soit utiliser le menu principal&#x202F;; pour ce faire, aller à 
 	- `Fichier` > `Importer` > `Photos`, pour importer un ou plusieurs fichiers d’images depuis un répertoire
-	- à `Fichier` > `Importer` > `Dossier`, si vous souhaitez importer tout un répertoire de fichiers. 
+	- `Fichier` > `Importer` > `Dossier`, si vous souhaitez importer tout un répertoire de fichiers. 
 
 {% include figure.html filename="fichier-importer.jpg" alt="Menu principal d'importation de fichiers" caption="Figure 1. Vue de l'interface principale de projet de Tropy" %} 
 
