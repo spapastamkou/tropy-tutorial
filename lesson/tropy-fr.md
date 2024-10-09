@@ -149,7 +149,9 @@ Il est possible d'importer les fichiers images de deux façons&#x202F;:
 	- `Fichier` > `Importer` > `Photos`, pour importer un ou plusieurs fichiers d’images depuis un répertoire
 	- `Fichier` > `Importer` > `Dossier`, si vous souhaitez importer tout un répertoire de fichiers. 
 
-{% include figure.html filename="fichier-importer.jpg" alt="Menu principal d'importation de fichiers" caption="Figure 1. Vue de l'interface principale de projet de Tropy" %} 
+{% include figure.html filename="fichier-importer.jpg" alt="Menu principal d'importation de fichiers" caption="Menu principal d'importation de fichiers dans un projet Tropy" %}
+
+![Menu principal d'importation de fichiers](/images/fichier-importer.jpg "Menu principal d'importation de fichiers dans un projet Tropy") 
 
 Nous avons testé l'importation des fichiers du jeu de données des affiches du Printemps érable des deux manières (Photos, en sélectionnant tous les fichiers à la fois, et Dossier, qui nous semble plus pratique pour les répertoires volumineux) et les deux ont été aussi bien efficaces. Au passage, Tropy a la possibilité de repérer à ce stade des doublons dans le jeu de données qu'il est possible de ne pas importer (c'était le cas du jeu de données importé pour cette leçon). 
 
