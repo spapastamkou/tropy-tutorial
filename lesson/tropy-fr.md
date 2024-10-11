@@ -250,7 +250,7 @@ Admettons que je souhaite créer un modèle de saisie spécifique aux correspond
 * dans le champ `Type` éliminer l'affichage par défaut de "correspondance" pour pouvoir spécifier davantage les types de correspondances que je rencontre dans ma recherche: télégramme, note diplomatique, mémorandum, lettre...
   
 
-Comme suggéré plus haut, je sélectionne le modèle `Tropy Correspondence` et je le duplique à l'aide de l'icône à droite du titre du modèle de saisie. Ensuite, je le nomme: Correspondance diplomatique-test et j'adapte, si je le souhaite, le nom de créateur du modèle et sa description. Le plus important est ce qui suit&#x202F;: des champs qui existent déjà dans le modèle que j'ai copié, nommés ici `Propriétés` je fais attention de garder ceux qui me conviennent sans trop de modification, si possible. De cette manière, je gagne du temps et je suis un modèle conforme à un standard reconnu (les modèles de Tropy s'appuient sur Dublin Core). Si besoin, il existe la possibilité de renommer les champs existants à partir de `Label` et j'en profite pour insérer ainsi le terme Destinataire qui viendra replacer l'intitulé du champ Public. Par ailleurs, parcourir les propriétés qui sont dejà là me permet de supprimer "Corespondence" en tant que valeur par défaut de la propriété Type. Il ne me reste que d'ajouter deux nouveaux champs dans mon formulaire de saisie pour les lieux que je souhaite pouvoir saisir. Il faut donc insérer deux nouvelles propriétés.    
+Comme suggéré plus haut, je sélectionne le modèle `Tropy Correspondence` et je le duplique à l'aide de l'icône à droite du titre du modèle de saisie. Ensuite, je nomme mon modèle&#x202F;: *Correspondance diplomatique-test* et j'adapte, si je le souhaite, le nom de créateur du modèle et sa description. Le plus important est ce qui suit&#x202F;: des champs qui existent déjà dans le modèle que j'ai copié, nommés ici `Propriétés`, je fais attention de garder ceux qui me conviennent sans trop de modifications, si possible. De cette manière, je gagne du temps et je suis un modèle conforme à un standard reconnu (les modèles de Tropy s'appuient sur Dublin Core). Si besoin, il existe la possibilité de renommer les champs existants à partir de `Label` et j'en profite pour insérer ainsi le terme *Destinataire* qui viendra replacer l'intitulé du champ *Public* (sans toucher à la propriété, qui essentiellement exprime ce que je cherche). Par ailleurs, parcourir les propriétés qui sont dejà là me permet de supprimer *Correspondence* en tant que valeur par défaut de la propriété *Type*. Il ne me reste plus que d'ajouter deux nouveaux champs dans mon formulaire de saisie pour les lieux que je souhaite pouvoir saisir. Il faut donc insérer deux nouvelles propriétés.    
 
 ou, si besoin, d'ajouter de nouveaux champs.
 
@@ -258,9 +258,13 @@ ou, si besoin, d'ajouter de nouveaux champs.
 
 {% include figure.html filename="tropy-correspondence-duplique.jpg" alt="Modèle de saisie Tropy Correspondence qui vient d'être dupliqué pour personnalisation" caption="Modèle de saisie Tropy Correspondence qui vient d'être dupliqué afin d'être personnalisé avant d'intégrer de nouveaux champs" %}
 
-![Modèle de saisie Tropy Correspondence qui vient d'être dupliqué pour personnalisatio](/images/tropy-correspondence-duplique.jpg "Modèle de saisie Tropy Correspondence qui vient d'être dupliqué afin d'être personnalisé")  
+![Modèle de saisie Tropy Correspondence qui vient d'être dupliqué pour personnalisatio](/images/tropy-correspondence-duplique.jpg "Modèle de saisie Tropy Correspondence qui vient d'être dupliqué afin d'être personnalisé") 
 
-creer-nv-champ-modele-correspondance-diplo.jpg
+{% include figure.html filename="creer-nv-champ-modele-correspondance-diplo.jpg" alt="Modèle de saisie spécifique aux correspondances diplomatiques en cours de création" caption="Modèle de saisie en cours de personnalisation avec création d'une nouvelle propriété" %}
+
+![Modèle de saisie spécifique aux correspondances diplomatiques en cours de création](/images/creer-nv-champ-modele-correspondance-diplo.jpg "Modèle de saisie en cours de personnalisation avec création d'une nouvelle propriété") 
+
+
 
 ## Analyser et annoter ses sources primaires 
          
