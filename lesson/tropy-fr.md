@@ -1,5 +1,5 @@
 ---
-title: Du chaos à l'ordre ou comment gérer des images numériques de sources primaires avec Tropy
+title: Du chaos à l'ordre ou comment gérer avec Tropy des fichiers images de sources primaires
 collection: lessons
 layout: lesson
 slug: tropy-fr
@@ -211,7 +211,7 @@ Au moment d'importer les fichiers images des sources primaires dans un projet Tr
 
 . Merci de consulter la section qui suit avec des précisions sur les métadonnées, si ce mot vous semble étrange, autrement vous pouvez passer aux suivantes qui expliquent comment attribuer ces informations à nos objets.    
 
-### Métadonnées  
+ 
 Avant toute chose, faisons, très brièvement, le point sur les métadonnées&#x202F;! Les métadonnées sont des informations qui décrivent d'autres données et qui deviennent signifiantes dans un système défini. Dans un cadre scientifique, comme le nôtre, [les métadonnées servent à décrire les données de recherche et les productions réalisées après leur analyse (par ex. articles, livres etc.)](https://doranum.fr/metadonnees-standards-formats/metadonnees-standards-formats-fiche-synthetique_10_13143_vbjs-6288/). Les métadonnées de base auxquelles nous avons affaire dans le cadre de notre projet peuvent porter sur le titre, le créateur ou la créatrice de la ressource qui nous intéresse (une oeuvre d'art, un document diplomatique), la date de création, parfois des destinataires ou encore davantage, comme nous le verrons plus en détail par la suite.      
 
 ### Attribuer des métadonnées par lot
@@ -246,15 +246,13 @@ Mais il est tout à fait envisageable de tailler un modèle sur mesure pour déc
 Admettons que je souhaite créer un modèle de saisie spécifique aux correspondances diplomatiques pour le personnaliser de la manière qui suit, comparé au `Tropy Correspondence` existant&#x202F;:
 
 * renommer le champ `Public` en `Destinataire`
-* disposer d'un champ `Lieu créateur` et d'un champ `Lieu destinataire` pour saisir l'endroit géographique de production et de réception de la correspondance
+* disposer d'un champ `Lieu de création` et d'un champ `Lieu de destination` pour saisir l'endroit géographique de production et de réception de la correspondance
 * dans le champ `Type` éliminer l'affichage par défaut de "correspondance" pour pouvoir spécifier davantage les types de correspondances que je rencontre dans ma recherche: télégramme, note diplomatique, mémorandum, lettre...
   
 
-Comme suggéré plus haut, je sélectionne le modèle `Tropy Correspondence` et je le duplique à l'aide de l'icône à droite du titre du modèle de saisie. Ensuite, je nomme mon modèle&#x202F;: *Correspondance diplomatique-test* et j'adapte, si je le souhaite, le nom de créateur du modèle et sa description. Le plus important est ce qui suit&#x202F;: des champs qui existent déjà dans le modèle que j'ai copié, nommés ici `Propriétés`, je fais attention de garder ceux qui me conviennent sans trop de modifications, si possible. De cette manière, je gagne du temps et je suis un modèle conforme à un standard reconnu (les modèles de Tropy s'appuient sur Dublin Core). Si besoin, il existe la possibilité de renommer les champs existants à partir de `Label` et j'en profite pour insérer ainsi le terme *Destinataire* qui viendra replacer l'intitulé du champ *Public* (sans toucher à la propriété, qui essentiellement exprime ce que je cherche). Par ailleurs, parcourir les propriétés qui sont dejà là me permet de supprimer *Correspondence* en tant que valeur par défaut de la propriété *Type*. Il ne me reste plus que d'ajouter deux nouveaux champs dans mon formulaire de saisie pour les lieux que je souhaite pouvoir saisir. Il faut donc insérer deux nouvelles propriétés.    
+Comme suggéré plus haut, je sélectionne le modèle `Tropy Correspondence` et je le duplique à l'aide de l'icône à droite du titre du modèle de saisie. Ensuite, je nomme mon modèle&#x202F;: *Correspondance diplomatique-test* et j'adapte, si je le souhaite, le nom de créateur du modèle et sa description. Le plus important est ce qui suit&#x202F;: des champs qui existent déjà dans le modèle que j'ai copié, nommés ici `Propriétés`, je fais attention de garder ceux qui me conviennent sans trop de modifications, si possible. De cette manière, je gagne du temps et je suis un modèle conforme à un standard reconnu (les modèles de Tropy s'appuient sur Dublin Core). Si besoin, il existe la possibilité de renommer les champs existants à partir de `Label` et j'en profite pour insérer ainsi le terme *Destinataire* qui viendra replacer l'intitulé du champ *Public* (sans toucher à la propriété, qui essentiellement exprime ce que je cherche). Par ailleurs, parcourir les propriétés qui sont dejà là me permet de supprimer *Correspondence* en tant que valeur par défaut de la propriété *Type*. Il ne me reste plus que d'ajouter deux nouveaux champs dans mon formulaire de saisie pour les lieux que je souhaite pouvoir saisir. Il faut donc insérer deux nouvelles propriétés. 
 
-ou, si besoin, d'ajouter de nouveaux champs.
-
-
+Les champs que je souhaite insérer dans mon modèle de saisie sont destinés à recueillir des données géographiques concernant le lieu de création et le lieu de réception de la correspondance. Je vais donc placer ces champs à proximité des champs qui informent sur le créateur et sur le destinataire respectivement. Je me place donc sur la propriété *Créateur* et à l'aide de la petite icône du symbole ajouter (`+`) à droite de cette propriété, j'ouvre la zone d'une nouvelle propriété juste en dessous. Je ne souhaite pas que mon approche soit idiosyncratique, je souhaite aligner les nouvelles métadonnées à celles qui existent déjà dans la structure du modèle. Comme Tropy utilise Dublin Core, je me dirige aux ressources disponibles en ligne pour voir comment la propriété spatiale est exprimée de manière plus normalisée. C'est donc la propriété *Couverture* (qui existe déjà dans le modèle mais je soujaite affiner davantage) qui est valable entre autre aussi pour déclarer des informations spatiales. Pour nommer ma propriété, je vais au niveau du menu déroulant qui liste les propriétés disponibles pour chercher celle qui me semble être la bonne, et je choisis `Couverture spatiale dcterms: spatial`. Comme label d'affichage, j'opte pour *Lieu de création*. Je crée de la même manière, sous le destinataire, une propriété du même type avec cette fois le label *Lieu de destination*. Mon formulaire personnalisé est prêt&#x202F;!          
 
 {% include figure.html filename="tropy-correspondence-duplique.jpg" alt="Modèle de saisie Tropy Correspondence qui vient d'être dupliqué pour personnalisation" caption="Modèle de saisie Tropy Correspondence qui vient d'être dupliqué afin d'être personnalisé avant d'intégrer de nouveaux champs" %}
 
@@ -264,19 +262,20 @@ ou, si besoin, d'ajouter de nouveaux champs.
 
 ![Modèle de saisie spécifique aux correspondances diplomatiques en cours de création](/images/creer-nv-champ-modele-correspondance-diplo.jpg "Modèle de saisie en cours de personnalisation avec création d'une nouvelle propriété") 
 
+## Opérations au niveau de l'objet
+Les opérations ci-dessus décrites se placent dans la temporalité de l'importation des nos fichiers. Lorsque nous en sommes à travailler de plus près avec nos sources, nous avons la possibilité d'effectuer des opérations plus localisées pour préparer leur analyse.  
+
+### Opérations techniques 
+Tropy offre des fonctionnalités élémentaires pour améliorer la qualité des photos des sources (régler la luminosité, le contraste, etc.) en se servant du menu qui se trouve en haut de la zone où s'affiche l'image. Il est possible aussi de zoomer sur une image pour mieux lire ou observer, d'inverser les couleurs pour, par exemple, lire plus facilement des microfilms. Ou encore, nous pouvons sélectionner une partie de l'image qui nous intéresse particulièrement et sauvegarder cette sélection, qui reste accessible depuis le menu latéral à gauche, pour y revenir aussi souvent que nécessaire. En outre, une sélection peut être sauvegardée en tant qu'image autonome avec ses propres métadonnées. Cela est possible en cliquant droit sur le nom de la sélection, depuis la zone du menu latéral gauche où elle apparaît, et choisir `Exporter la photo` dans le menu qui apparaît.  
+### Indexer
+Ensuite, nous avons la possibilité d'indexer le contenu de l'objet - de nos sources&#x202F;:! - en ajoutant des tags. Les tags permettent d'organiser les contenus de nos sources de manière transversale à travers les listes. Ils offrent un moyen très utile pour obtenir une vue latérale de nos sources, selon une thématique spécifique, ce qui facilite largement la rédaction. Il vaut mieux réfléchir en amont sur un système pertinent de mots-clés, selon la nature d'une recherche et sa problématique, et d'établir une liste à utiliser systématiquement. Cette liste peut bien sûr s'étendre au fil d'une recherche, elle permet néanmoins de se fixer sur des termes stables en évitant des formes différentes et des incohérences qui pourraient rendre finalement l'indexation moins efficace. 
+
+### Transcrire et prendre des notes
+Au dessous de la zone de l'image de l'objet, un éditeur de texte permet la prise de notes. Il est possible de créer autant de notes que souhaité, celles-ci apparaissent ensuite sous forme de liste tout en bas à gauche dans la zone du menu latéral gauche. La transcription du contenu d'une image, si celle-ci représente un texte, est aussi possible à faire sous forme de note. Tropy ne dispose pas de logiciel de reconnaissance optique de caractères intégré, par conséquent l'exportation automatique de texte à partir des images du projet n'est pas possible.
+
+Si l’objet Tropy a émané d’une fusion de plusieurs fichiers images, les notes peuvent néanmoins s’insérer séparément pour chaque fichier. Les notes sont exportables soit via un export global du projet Tropy soit séparément en cliquant droit dessus et en choisissant de les exporter dans le menu qui s'affiche. 
 
 
-## Analyser et annoter ses sources primaires 
-         
-### Traiter et analyser un objet 
-Nous avons vu plus haut comment [intégrer les informations descriptives qui nous aident à identifier nos sources](#décrire-ses-sources). Cette opération a normalement lieu dans la temporalité de l'importation des nos fichiers. A l'étape suivante, lorsque nous en sommes à travailler de plus près avec nos sources, nous avons la possibilité d'effectuer plusieurs types d'opérations. 
-
-Tout d'abord, nous pouvons effectuer des opérations techniques de base pour améliorer la qualité de nos photos (régler la luminosité, le contraste, etc.) en se servant du menu qui se trouve en haut de la zone où s'affiche l'image. Il est possible aussi de zoomer sur une image pour mieux lire ou observer, d'inverser les couleurs pour, par exemple, lire plus facilement des microfilms. Ou encore, nous pouvons sélectionner une partie de l'image qui nous intéresse particulièrement et sauvegarder cette sélection, qui reste accessible depuis le menu latéral à gauche, pour y revenir aussi souvent que nécessaire. En outre, une sélection peut être sauvegardée en tant qu'image autonome avec ses propres métadonnées. Cela est possible en cliquant droit sur le nom de la sélection, depuis la zone du menu latéral gauche où elle apparaît, et choisir `Exporter la photo` dans le menu qui apparaît.  
-
-Ensuite, nous avons la possibilité d'indexer le contenu de l'objet en ajoutant des tags. Les tags peuvent nous aider à organiser les contenus de nos sources de manière transversale à travers les listes. C'est un moyen très utile pour obtenir une vue latérale sur nos sources et facilite largement la rédaction. Notre conseil et de réfléchir en amont sur un système pertinent de mots-clés, selon la nature d'une recherche et sa problématique, et d'établir une liste à utiliser systématiquement. Cette liste peut bien sûr s'étendre au fil d'une recherche, elle permet néanmoins de se fixer sur de termes donnés en évitant leur multiplication, des formes différentes et des incohérences qui pourraient rendre finalement l'indexation moins efficace. 
-
-Au dessous de la zone de l'image de l'objet, un éditeur de texte permet la prise de notes. Il est possible de créer autant de notes que souhaité, celles-ci apparaissent ensuite sous forme de liste tout en bas à gauche dans la zone du menu latéral gauche. La transcription du contenu d'une image, si celle-ci représente un texte, est aussi possible à faire sous forme de note. Tropy ne dispose pas de logiciel de reconnaissance optique de caractères intégré, par conséquent l'exportation automatique de texte à partir des images du projet n'est pas possible. 
-Si l’objet a émané d’une fusion, les notes peuvent néanmoins s’insérer séparément pour chaque fichier. Les notes sont exportables soit via un export global du projet Tropy soit séparément en cliquant droit dessus et en choisissant de les exporter dans le menu qui s'affiche. 
 
 ## Extensions d'un projet Tropy
 Il est possible d'exporter un projet Tropy à l'aide du menu principal en format JSON-LD ou PDF.  
