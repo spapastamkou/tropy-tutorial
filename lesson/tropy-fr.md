@@ -323,9 +323,7 @@ Laillier, Benjamin. *Tutoriel Tropy* (version 4), août 2019 http://doi.org/10.5
 “Tropy | Gestion d’images”, wiki Pole-Num-Scrums-Skills, https://wikis.univ-lille.fr/proj-polnum/accueil/manuels/guide-d-utilisation-de-tropy
 --> 
 
-Valmalle, Delphine. &laquo;&#x202F;Utiliser Tropy pour la gestion de ses photos d'archives&#x202F;&raquo;. YouTube, *Geneatech*, 22 février 2021, https://youtu.be/AiPqbdwP67E  
-
-<!-- en anglais “Tropy Webinar, June 16, 2020 (unedited recording)”, YouTube, Tropy Project, https://youtu.be/jWjP90EWHkQ --> 
+Valmalle, Delphine. &laquo;&#x202F;Utiliser Tropy pour la gestion de ses photos d'archives&#x202F;&raquo;. YouTube, *Geneatech*, 22 février 2021, [https://youtu.be/AiPqbdwP67E](https://youtu.be/AiPqbdwP67E) 
 
 ## Notes 
 
